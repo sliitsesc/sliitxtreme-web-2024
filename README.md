@@ -20,4 +20,10 @@ Ex:
 - chore: Other tasks
 - build: Deployment/etc related
 
+Ex:
+
+- feat: add background image
+- fix: remove missing variable
+- chore: update readme file
+
 More on: https://www.conventionalcommits.org/
