@@ -1,13 +1,17 @@
-# Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Github Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the develop branch
   push:
     branches: ["develop"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      build_target:
+        description: "Target environment to deploy"
+        required: false
+        default: "production"
 
 # Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
 permissions:
@@ -38,7 +42,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build
-        run: npm run build
+        run: |
+          echo "Build target: ${{ github.event.inputs.build_target }}"
+          npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
