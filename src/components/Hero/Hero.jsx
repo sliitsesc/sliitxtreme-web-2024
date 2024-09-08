@@ -9,12 +9,12 @@ export default function Hero() {
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">Are you Ready?</h1>
-          <p className="py-6">
+          <p className="py-6 text-xl">
             SLIITXtreme 2024 is around the corner. Register your team now to
             secure your spot!
           </p>
           <Countdown />
-          <button className="btn btn-primary">Register Now</button>
+          <button className="btn btn-primary">Reg sdister Now</button>
         </div>
       </div>
     </section>
