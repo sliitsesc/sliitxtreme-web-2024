@@ -25,8 +25,8 @@ export default function HeaderAnimation() {
             },
           },
           colors: {
-            background: "#2e2e75",
-            particles: ["#2e2e75", "#ea7a26"],
+            background: "#000000",
+            particles: ["#08003c", "#130665"],
           },
           blending: "lighten",
           opacity: {
