@@ -1,3 +1,5 @@
+import Countdown from "../Countdown/Countdown";
+
 import HeaderAnimation from "./HeroAnimation";
 
 export default function Hero() {
@@ -6,12 +8,12 @@ export default function Hero() {
       <HeaderAnimation />
       <div className="hero-content text-center">
         <div className="max-w-md">
-          <h1 className="text-5xl font-bold">The All-Round Hackathon</h1>
+          <h1 className="text-5xl font-bold">Are you Ready?</h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            SLIITXtreme 2024 is around the corner. Register your team now to
+            secure your spot!
           </p>
+          <Countdown />
           <button className="btn btn-primary">Register Now</button>
         </div>
       </div>
