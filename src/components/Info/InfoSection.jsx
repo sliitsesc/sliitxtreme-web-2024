@@ -2,7 +2,7 @@ export default function InfoSection() {
   return (
     <section>
       <div className="container mx-auto flex flex-col md:flex-row gap-y-10 md:gap-x-10 py-16 px-8">
-        {/* slideshow */}
+        {/* slidesho */}
         <div className="w-full bg-slate-200">
           <img
             src="https://i.pinimg.com/1200x/91/92/c9/9192c99c14e8f9d303a5ecfefd96ecc9.jpg"
