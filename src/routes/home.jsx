@@ -2,7 +2,7 @@ import Awards from "../components/Awards/Awards";
 import FAQ from "../components/FAQ/FAQ";
 import Hero from "../components/Hero/Hero";
 import InfoSection from "../components/Info/InfoSection";
-import Timeline from "../components/Timeline/timeline";
+import Timeline from "../components/Timeline/Timeline";
 
 export default function Home() {
   return (
