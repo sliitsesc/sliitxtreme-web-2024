@@ -25,10 +25,10 @@ export default function HeaderAnimation() {
             },
           },
           colors: {
-            background: "#000000",
-            particles: ["#11A3D6", "#130665"],
+            background: "#bf6113", //#000000
+            particles: ["#EF7226", "#11A3D6"], 
           },
-          blending: "lighten",
+          blending: "auto",
           opacity: {
             center: 0.6,
             edge: 0,
