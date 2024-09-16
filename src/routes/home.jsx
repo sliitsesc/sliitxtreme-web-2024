@@ -1,5 +1,4 @@
 import Awards from "../components/Awards/Awards";
-import Guildline from "../components/Guildline/Guildline";
 import FAQ from "../components/FAQ/FAQ";
 import Testimonial from "../components/Testimonial/Testimonial";
 import Guidelines from "../components/Guidelines/Guidelines";
@@ -21,7 +20,6 @@ export default function Home() {
       <FAQ />
         <Sponsors/>
       <Stats/>
-      <Guildline />
     </>
   );
 }

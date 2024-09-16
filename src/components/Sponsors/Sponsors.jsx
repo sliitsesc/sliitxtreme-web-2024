@@ -1,6 +1,6 @@
 import { RxQuestionMark } from 'react-icons/rx';
 import { twMerge } from 'tailwind-merge';
-import { SectionBadge } from '../Common/badges';
+import { SectionBadge } from '../Common';
 import sponsors from './data.json';
 
 const Sponsors = () => {

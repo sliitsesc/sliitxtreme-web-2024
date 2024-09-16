@@ -1,37 +1,30 @@
-export default function Guidelines() {
+import { Fragment } from 'react';
+import { twMerge } from 'tailwind-merge';
+import { BodyText, SectionBadge } from '../Common'
+import rules from './data.json';
+
+const Guidelines = () => {
   return (
-    <section className="bg-white-200 p-4">
-      <div className="container mx-auto">
-        <h2 className="text-2xl font-bold mb-6 text-center">Guidelines</h2>
-        <div className="flex justify-center">
-          <div className="card bg-base-100 w-1/2 shadow-xl">
-            <div className="card-body">
-              <ul className="list-none pl-5">
-                <li className="mb-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li>
-                <li className="mb-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li>
-                <li className="mb-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li>
-                <li className="mb-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li>
-                <li className="mb-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li>
-              </ul>
-            </div>
-          </div>
+      <div className="w-full flex flex-col mt-3 py-6 px-10 lg:px-24 gap-y-10">
+        <SectionBadge id="rules">The Rules & Regulations</SectionBadge>
+        <div className="p-8 py-10 rounded-3xl flex flex-col items-center lg:items-start bg-base-200">
+          {rules.map((rule, index) => {
+            return (
+                <Fragment key={index}>
+                  <BodyText
+                      className={twMerge(
+                          'tracking-[0.32px] leading-[108%] font-medium font-cabinet',
+                          index === rules.length - 1 ? 'text-black' : 'text-black/60'
+                      )}>
+                    {rule}
+                  </BodyText>
+                  {index === rules.length - 1 ? null : <hr className="w-full border-black/10 my-5" />}
+                </Fragment>
+            );
+          })}
         </div>
       </div>
-    </section>
   );
-}
+};
+
+export default Guidelines;
