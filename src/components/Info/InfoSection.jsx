@@ -9,7 +9,7 @@ export default function InfoSection() {
     <section>
       <div className="container mx-auto flex flex-col md:flex-row gap-y-10 md:gap-x-10 py-16 px-8">
         {/* Image Slider */}
-        <div className="w-full bg-slate-200 overflow-hidden">
+        <div className="w-full bg-slate-200 overflow-hidden rounded-3xl">
           <Swiper
             spaceBetween={10}
             slidesPerView={1}
@@ -19,7 +19,7 @@ export default function InfoSection() {
             modules={[Pagination, Autoplay]}
           >
             <SwiperSlide>
-              <div className="relative w-full h-[400px] overflow-hidden">
+              <div className="relative w-full h-[400px] overflow-hidden ">
                 <img
                   src="https://i.pinimg.com/1200x/91/92/c9/9192c99c14e8f9d303a5ecfefd96ecc9.jpg"
                   className="w-full h-full object-cover grayscale"
@@ -53,13 +53,10 @@ export default function InfoSection() {
         <div className="w-full flex flex-col justify-center">
           <h1 className="text-5xl font-bold">What is SLIITXtreme?</h1>
           <p className="py-6 text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore
+            The IEEE Computer Society of Sri Lanka Institute of Information Technology (SLIIT) organizes “SLIITXtreme 3.0” in collaboration with the Software Engineering Student Community of SLIIT,
+            with the aim of conducting an Exclusive Programming Competition for SLIIT Students.
+            This competition aims to introduce students of SLIIT to the IEEEXtreme global programming competition.
           </p>
-          <button className="btn btn-primary w-fit">Get Started</button>
         </div>
       </div>
     </section>
