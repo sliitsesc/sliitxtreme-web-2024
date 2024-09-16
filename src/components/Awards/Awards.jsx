@@ -1,51 +1,67 @@
-import { FaTrophy, FaMedal, FaAward } from 'react-icons/fa';
+import Title from '../Common/title.jsx';
 
-const Awards = () => {
-  return (
-    <section className="py-12">
-      <div className="container bg-gray-900 mx-auto px-8 py-10 text-center rounded-md">
-        <h2 className="text-5xl font-bold mb-12 color-white text-white">Awards</h2>
+const Prizes = () => {
+    const prizeList = [
+        {
+            name: 'Winner',
+            image: 'prize1.svg',
+            details: ['LKR 40,000.00']
+        },
+        {
+            name: "1st Runner's Up",
+            image: 'prize2.svg',
+            details: ['LKR 30,000.00']
+        },
+        {
+            name: "2nd Runner's Up",
+            image: 'prize3.svg',
+            details: ['LKR 20,000.00']
+        }
+    ];
 
-        {/* cards container */}
-        <div className="flex flex-col sm:flex-row justify-center gap-y-8 sm:gap-x-12 p-6">
-
-          {/* 1st Runner up */}
-          <div className="w-full sm:w-[30%] bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl flex flex-col justify-center items-center py-10 gap-y-6">
-            <FaMedal className="text-red-500 w-[100px] h-[100px]" /> {/* Medal Icon */}
-            <div className="text-center">
-              <h2 className="text-3xl font-bold text-gray-800">1st Runner up</h2>
-              <h3 className="text-xl font-semibold text-gray-600 mt-2">
-                40,000 LKR
-              </h3>
+    const Prize = ({ name, details, image, aos }) => {
+        return (
+            <div data-aos={aos}>
+                <div className="h-96 group flex flex-col justify-center items-center my-12 border cursor-default border-nav-links-unselected mx-6 md:mx-12 p-8 hover:border-primary transition duration-300 ">
+                    <img
+                        src={`./assets/prizes/${image}`}
+                        className="w-32 h-32 md:w-32 md:h-32 mx-16 p-2 flex justify-center items-center transform hover:scale-105 transition duration-300"
+                    />
+                    <span className="text-black text-xl font-semibold text-center mt-8 mb-6">{name}</span>
+                    {details.map((detail) => {
+                        return (
+                            <span key={detail} className="text-nav-links-unselected text-center mb-2">
+                {detail}
+              </span>
+                        );
+                    })}
+                </div>
             </div>
-          </div>
-
-          {/* Champion card */}
-          <div className="w-full sm:w-[30%] bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-115 hover:shadow-xl flex flex-col justify-center items-center py-10 gap-y-6 scale-110 ">
-
-            <FaTrophy className="text-yellow-500 w-[100px] h-[100px]" /> {/* Trophy Icon */}
-            <div className="text-center">
-              <h2 className="text-3xl font-bold text-gray-800">Champion</h2>
-              <h3 className="text-xl font-semibold text-gray-600 mt-2">
-                30,000 LKR
-              </h3>
+        );
+    };
+    return (
+        <>
+            <div className="flex flex-col justify-center items-center pt-[80px] " id="prizes">
+                <Title title="Prizes" className="mt-4 mb-12" aos="fade-right" />
+                <div className="flex flex-wrap justify-center items-center">
+                    {prizeList.map((prize, index) => {
+                        return (
+                            <Prize
+                                key={prize}
+                                name={prize.name}
+                                details={prize.details}
+                                image={prize.image}
+                                aos={index === 1 ? 'fade' : index === 0 ? 'fade-right' : 'fade-left'}
+                            />
+                        );
+                    })}
+                </div>
+                <span className="text-nav-links-unselected text-center mb-2" data-aos="fade-up">
+          * Conditions apply *
+        </span>
             </div>
-          </div>
-
-          {/* 2nd Runner up card */}
-          <div className="w-full sm:w-[30%] bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl flex flex-col justify-center items-center py-10 gap-y-6">
-            <FaAward className="text-green-500 w-[100px] h-[100px]" /> {/* Award Icon */}
-            <div className="text-center">
-              <h2 className="text-3xl font-bold text-gray-800">2nd Runner up</h2>
-              <h3 className="text-xl font-semibold text-gray-600 mt-2">
-                20,000 LKR
-              </h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+        </>
+    );
 };
 
-export default Awards;
+export default Prizes;
