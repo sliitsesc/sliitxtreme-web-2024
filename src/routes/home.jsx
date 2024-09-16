@@ -7,10 +7,12 @@ import Hero from "../components/Hero/Hero";
 import InfoSection from "../components/Info/InfoSection";
 import Timeline from "../components/Timeline/Timeline";
 import Stats from "../components/Stats/Stats";
+import Background from "../components/Common/background.jsx";
 
 export default function Home() {
   return (
     <>
+ <div className="z-60">
       <Hero />
       <InfoSection />
       <Awards />
@@ -20,6 +22,8 @@ export default function Home() {
       <FAQ />
       <Stats/>
       <Guildline />
+ </div>
+        <Background/>
     </>
   );
 }
