@@ -8,3 +8,10 @@
   font-weight: 600;
   font-style: normal;
 }
+
+.dm-sans-400 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

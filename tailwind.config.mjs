@@ -3,6 +3,12 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          orange: "#EF7226",
+          blue: "#11A3D6",
+        },
+      },
       // container: {
       //   padding: "1rem",
       // },
