@@ -7,6 +7,7 @@ import Hero from "../components/Hero/Hero";
 import InfoSection from "../components/Info/InfoSection";
 import Timeline from "../components/Timeline/Timeline";
 import Stats from "../components/Stats/Stats";
+import Sponsors from "../components/Sponsors/Sponsors.jsx";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Guidelines />
       <Timeline />
       <FAQ />
+        <Sponsors/>
       <Stats/>
       <Guildline />
     </>
