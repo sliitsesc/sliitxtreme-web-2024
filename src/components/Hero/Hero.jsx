@@ -1,11 +1,22 @@
-import React from 'react'
+import Countdown from "../Countdown/Countdown";
 
-const Hero = () => {
+import HeaderAnimation from "./HeroAnimation";
+
+export default function Hero() {
   return (
-    <div className='bg-purple-600 p-4'>
-      Hero
-    </div>
-  )
+    <section className="hero relative bg-transparent min-h-[calc(80svh-68px)] text-white">
+      <HeaderAnimation />
+      <div className="text-center hero-content">
+        <div className="max-w-md">
+          <h1 className="text-5xl font-bold">Are you Ready?</h1>
+          <p className="py-6 text-xl">
+            SLIITXtreme 2024 is around the corner. Register your team now to
+            secure your spot!
+          </p>
+          <Countdown />
+          <button className="btn btn-primary">Register Now</button>
+        </div>
+      </div>
+    </section>
+  );
 }
-
-export default Hero

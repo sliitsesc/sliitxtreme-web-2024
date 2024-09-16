@@ -1,8 +1,29 @@
-# React + Vite
+# Branching Conventions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- feat: New feature
+- fix: Bug fix
+- refactor: Code refactoring
+- chore: Other tasks
+- build: Deployment/etc related
 
-Currently, two official plugins are available:
+Ex:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- feat/sw-145-implement-countdown-timer
+- fix/sw-167-countdown-timer-refresh-issue
+- refactor/sw-51-update-router-paths
+
+# Commit Conventions
+
+- feat: New feature
+- fix: Bug fix
+- refactor: Code refactoring
+- chore: Other tasks
+- build: Deployment/etc related
+
+Ex:
+
+- feat: add background image
+- fix: remove missing variable
+- chore: update readme file
+
+More on: https://www.conventionalcommits.org/
