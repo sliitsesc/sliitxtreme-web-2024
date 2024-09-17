@@ -6,7 +6,7 @@ const Awards = () => {
       <div className="container bg-black mx-auto px-8 py-10 text-center rounded-md dm-sans-400">
         <div className="text-center mb-8">
           <h1 className="text-[48px] dm-sans-600 font-bold text-white mb-5 drop-shadow-white-glow">
-            Prize Pool
+            {landingPageData.awardSection.title}
           </h1>
           <p className="text-[20px] text-white">
             {landingPageData.awardSection.content}
