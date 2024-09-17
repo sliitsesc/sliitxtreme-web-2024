@@ -18,7 +18,7 @@ export default function Navbar({ className }) {
             <img
               src={XtremeLogo}
               alt="Xtreme Logo"
-              className="w-[200px] drop-shadow-white-glow"
+              className="w-[150px] md:w-[200px] drop-shadow-white-glow"
             />
           </a>
         </div>
@@ -27,19 +27,6 @@ export default function Navbar({ className }) {
             <li>
               <a>Home</a>
             </li>
-            {/* <li>
-            <details className="w-auto">
-              <summary>Parent</summary>
-              <ul className="p-2 min-w-max">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li> */}
             <li>
               <a>About</a>
             </li>
@@ -59,10 +46,10 @@ export default function Navbar({ className }) {
             text="Register Now"
             link="#"
             color="orange"
-            className={"z-[1] drop-shadow-orange-glow"}
+            className={"z-[99] drop-shadow-orange-glow hidden lg:block"}
           />
           {/* mobile menu */}
-          <div className="dropdown">
+          <div className="dropdown z-[99]">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,13 +68,22 @@ export default function Navbar({ className }) {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0"
+              className="menu menu-sm bg-[#FFFFFF10] backdrop-blur-lg dropdown-content rounded-box mt-3 w-52 p-2 shadow right-0 text-white dm-sans-600 font-bold"
             >
               <li>
-                <a>Home</a>
+                <a className="py-3 text-[16px]">Home</a>
               </li>
               <li>
-                <a>Register</a>
+                <a className="py-3 text-[16px]">About</a>
+              </li>
+              <li>
+                <a className="py-3 text-[16px]">Prizes</a>
+              </li>
+              <li>
+                <a className="py-3 text-[16px]">Register</a>
+              </li>
+              <li className="">
+                <a className="py-3 text-[16px]">Contact</a>
               </li>
             </ul>
           </div>
