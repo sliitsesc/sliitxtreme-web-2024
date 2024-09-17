@@ -12,7 +12,7 @@ export default function InfoSection() {
     <section className="bg-transparent">
       <div className="container mx-auto flex flex-col lg:flex-row gap-y-10 md:gap-x-10 pt md:pt-10 pb-20 px-8">
         {/* Image Slider */}
-        <div className="w-full lg:w-1/2 bg-slate-200 overflow-hidden rounded-3xl drop-shadow-white-glow">
+        <div className="w-full lg:w-1/2 bg-slate-200 overflow-hidden rounded-3xl">
           <Swiper
             className="flex h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] max-h-[450px]"
             spaceBetween={0}

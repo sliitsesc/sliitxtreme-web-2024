@@ -50,4 +50,26 @@ export const landingPageData = {
       },
     ],
   },
+  awardSection: {
+    title: "Awards",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies.",
+    awards: [
+      {
+        title: "1st Runner up",
+        prize: "15,000 LKR",
+        image: "/images/awards/Award 2.png",
+      },
+      {
+        title: "Winner",
+        prize: "25,000 LKR",
+        image: "/images/awards/Award 1.png",
+      },
+      {
+        title: "2nd Runner up",
+        prize: "10,000 LKR",
+        image: "/images/awards/Award 3.png",
+      },
+    ],
+  },
 };
