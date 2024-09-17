@@ -1,5 +1,3 @@
-import React from "react";
-
 const FAQ = () => {
   return (
     <div className="px-8 py-16 gap-y-10 md:gap-x-10">
