@@ -11,6 +11,7 @@ module.exports = {
       },
       dropShadow: {
         "orange-glow": "0px 0px 10px #EF722690",
+        "orange-glow-bright": "0px 0px 25px #EF722690",
         "white-glow": "0px 0px 10px #FFFFFF60",
       },
     },
