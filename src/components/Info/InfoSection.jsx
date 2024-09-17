@@ -10,10 +10,11 @@ import { landingPageData } from "../../lib/data/landingPageData";
 export default function InfoSection() {
   return (
     <section>
-      <div className="container mx-auto flex flex-col lg:flex-row gap-y-10 md:gap-x-10 pt-10 pb-20 px-8">
+      <div className="container mx-auto flex flex-col lg:flex-row gap-y-10 md:gap-x-10 pt md:pt-10 pb-20 px-8">
         {/* Image Slider */}
         <div className="w-full bg-slate-200 overflow-hidden rounded-3xl">
           <Swiper
+            className="flex h-[300px] sm:h-[350px] md:h-[400px] lg:h-[400px]"
             spaceBetween={0}
             slidesPerView={1}
             loop={true}
@@ -23,7 +24,7 @@ export default function InfoSection() {
           >
             {landingPageData?.aboutSection?.images.map((image, index) => (
               <SwiperSlide key={index}>
-                <div className="relative w-full max-h-[450px] overflow-hidden ">
+                <div className="relative w-full h-full overflow-hidden ">
                   <img
                     src={image.src}
                     className="w-full h-full object-cover grayscale"
