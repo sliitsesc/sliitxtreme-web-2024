@@ -13,10 +13,12 @@ export default function Hero() {
       <Navbar className={"z-[1] text-white"} />
       <section className="h-[calc(100svh)] min-h-[400px] md:h-[calc(100vh-68px)] md:min-h-[500px] md:max-h-[900px] px-2 text-white text-center flex flex-col justify-center z-[1]">
         <div className="container flex flex-col items-center mx-auto z-[1] text-center -mt-[105px]">
-          <h1 className="text-[48px] leading-[52px] max-w-[340px] sm:max-w-none md:leading-normal md:text-[48px] font-bold dm-sans-600 mb-4 md:mb-2 drop-shadow-white-glow">
-            The Hackathon of the Year
+          <h1 className="text-[48px] leading-[52px] max-w-[340px] sm:max-w-none md:leading-[64px] md:text-[62px] font-bold dm-sans-600 mb-4 md:mb-6 drop-shadow-white-glow">
+            SLIITXtreme 3.0—
+            <br />
+            The Programming Hackathon
           </h1>
-          <p className="text-[24px] leading-[30px] md:leading-normal md:text-[28px] font-normal dm-sans-400 max-w-[500px] sm:max-w-[600px] md:max-w-[768px]">
+          <p className="text-[23.4px] leading-[30px] md:leading-normal md:text-[23.4px] font-normal dm-sans-400 max-w-[500px] sm:max-w-[600px] md:max-w-[768px] md:mb-2">
             Welcome to the Hackathon of the Year— SLIITXtreme 2024 Lorem ipsum
             dolor sit amet, consectetur adipiscing elit.
           </p>
