@@ -29,4 +29,25 @@ export const landingPageData = {
       },
     ],
   },
+  statSection: {
+    title: "SLIITXtreme 2023 in Numbers",
+    stats: [
+      {
+        number: "100+",
+        label: "Teams",
+      },
+      {
+        number: "200+",
+        label: "Participants",
+      },
+      {
+        number: "100K+",
+        label: "Prizes (LKR)",
+      },
+      {
+        number: "100K+",
+        label: "Prizes (LKR)",
+      },
+    ],
+  },
 };

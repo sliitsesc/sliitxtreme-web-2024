@@ -13,6 +13,13 @@
   font-style: normal;
 }
 
+.dm-sans-800 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
 .dm-sans-400 {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -22,4 +29,11 @@
 
 .swiper-pagination-bullet-active {
   background-color: #ef7226;
+}
+
+.orange-text-gradient {
+  background: -webkit-linear-gradient(top, #ef7226, #3e1a04);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

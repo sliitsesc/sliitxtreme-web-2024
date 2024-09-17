@@ -1,28 +1,24 @@
-import React from "react";
+import { landingPageData } from "../../lib/data/landingPageData";
 
 function Stats() {
   return (
-    <div className="flex items-center justify-center px-8 py-12 gap-y-10 md:gap-x-10">
-      <div className="flex-col w-full max-w-4xl shadow stats stats-vertical lg:stats-horizontal lg:flex-row lg:w-3/4">
-        <div className="flex flex-col items-center stat">
-          <div className="stat-title">Downloads</div>
-          <div className="stat-value">31K</div>
-          <div className="stat-desc">Jan 1st - Feb 1st</div>
-        </div>
-
-        <div className="flex flex-col items-center stat">
-          <div className="stat-title">New Users</div>
-          <div className="stat-value">4,200</div>
-          <div className="stat-desc">↗︎ 400 (22%)</div>
-        </div>
-
-        <div className="flex flex-col items-center stat">
-          <div className="stat-title">New Registers</div>
-          <div className="stat-value">1,200</div>
-          <div className="stat-desc">↘︎ 90 (14%)</div>
-        </div>
+    <section className="py-4 md:py-10">
+      <div className="container mx-auto px-8 flex flex-col md:flex-row md:gap-x-4 lg:gap-x-16 justify-center flex-wrap items-center">
+        {landingPageData.statSection.stats.map((stat, index) => (
+          <div
+            key={index}
+            className="flex flex-col justify-center items-center p-4 rounded-3xl text-white"
+          >
+            <h2 className="text-[64px] font-bold dm-sans-800 -mb-[10px] orange-text-gradient drop-shadow-orange-glow">
+              {stat.number}
+            </h2>
+            <p className="text-[28px] dm-sans-400 drop-shadow-white-glow">
+              {stat.label}
+            </p>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
 }
 
