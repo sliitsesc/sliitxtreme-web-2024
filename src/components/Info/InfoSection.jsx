@@ -4,6 +4,7 @@ import "swiper/css/autoplay";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Helmet } from "react-helmet-async";
 
 import { landingPageData } from "../../lib/data/landingPageData";
 
@@ -45,7 +46,7 @@ export default function InfoSection() {
             {parse(landingPageData?.aboutSection?.content)}
           </p>
         </div>
-      </div>
-    </section>
+      </section>
+
   );
 }
