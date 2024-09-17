@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet-async";
 
-import OG_Image from "../../public/images/og-image/OG_Image.png";
 import Awards from "../components/Awards/Awards";
 import Hero from "../components/Hero/Hero";
 import InfoSection from "../components/Info/InfoSection";
@@ -9,6 +8,7 @@ import Stats from "../components/Stats/Stats";
 export default function Home() {
   return (
     <>
+      {/* SEO */}
       <Helmet>
         <title>Home</title>
         <meta
@@ -17,9 +17,12 @@ export default function Home() {
         SLIIT in collaboration with the Software Engineering Student Community of SLIIT"
         />
         <link rel="canonical" href="/" />
-        {/* <meta property="og:description" content={description} /> */}
-        <meta property="og:image" content={OG_Image} />
+        <meta property="og:title" content="SLIITXtreme 3.0 - 2024" />
+        <meta property="og:url" content="https://sliitxtreme.ieeesliit.com" />
+        <meta property="og:description" content="SLIITXtreme 3.0 - 2024" />
+        <meta property="og:image" content="/images/OG_Image.png" />
       </Helmet>
+
       <Hero />
       <InfoSection />
       <Stats />
