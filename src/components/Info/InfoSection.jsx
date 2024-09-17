@@ -16,7 +16,7 @@ export default function InfoSection() {
         <title>Home</title>
         <meta name="description" content="SLIITXtreme 2024 hosted by the IEEE Student Chapter of 
          SLIIT in collaboration with the Software Engineering Student Community of SLIIT" />
-        <link rel="canonical" href="/home" />
+        <link rel="canonical" href="/" />
         <meta property="og:image" content={landingPageData} />
       </Helmet>
 
