@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  background-color: black;
+}
+
 .dm-sans-600 {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;

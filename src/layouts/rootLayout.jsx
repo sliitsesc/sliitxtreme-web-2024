@@ -6,11 +6,13 @@ import Navbar from "../components/Navbar/Navbar";
 export default function RootLayout() {
   return (
     <>
-      <Navbar />
-      <main>
-        <Outlet />
-      </main>
-      <Footer />
+      <>
+        {window.location.pathname !== "/" && <Navbar />}
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
+      </>
     </>
   );
 }

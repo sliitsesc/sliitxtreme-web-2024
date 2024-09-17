@@ -1,12 +1,29 @@
-export default function Navbar() {
+// props validation
+import PropTypes from "prop-types";
+import { twMerge } from "tailwind-merge";
+
+import XtremeLogo from "../../../public/logos/xtreme logo.svg";
+import Button from "../common/Button/Button";
+
+Navbar.propTypes = {
+  className: PropTypes.string,
+};
+
+export default function Navbar({ className }) {
   return (
-    <nav className={"bg-transparent"}>
+    <nav className={twMerge("bg-transparent", className)}>
       <div className="navbar container mx-auto">
         <div className="navbar-start">
-          <a className="text-xl cursor-pointer font-bold">SLIITXtreme</a>
+          <a className="text-xl cursor-pointer font-bold">
+            <img
+              src={XtremeLogo}
+              alt="Xtreme Logo"
+              className="w-[200px] drop-shadow-white-glow"
+            />
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-x-4">
+          <ul className="menu menu-horizontal px-1 gap-x-4 text-[16px] font-medium">
             <li>
               <a>Home</a>
             </li>
@@ -24,12 +41,26 @@ export default function Navbar() {
             </details>
           </li> */}
             <li>
+              <a>About</a>
+            </li>
+            <li>
+              <a>Prizes</a>
+            </li>
+            <li>
               <a>Register</a>
+            </li>
+            <li>
+              <a>Contact</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn hidden lg:flex">Register</a>
+          <Button
+            text="Register Now"
+            link="#"
+            color="orange"
+            className={"z-[1] drop-shadow-orange-glow"}
+          />
           {/* mobile menu */}
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
