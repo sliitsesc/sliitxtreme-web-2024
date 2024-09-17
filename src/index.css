@@ -19,3 +19,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.swiper-pagination-bullet-active {
+  background-color: #ef7226;
+}
