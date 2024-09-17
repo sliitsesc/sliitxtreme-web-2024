@@ -25,7 +25,7 @@ export default function Home() {
         <meta property="og:description" content="SLIITXtreme 3.0 - 2024" />
         <meta
           property="og:image"
-          content="https://sliitxtreme.ieeesliit.com/images/og_image.png"
+          content="https://sliitxtreme.ieeesliit.com/images/og_image.jpeg"
         />
       </Helmet>
 
