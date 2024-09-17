@@ -11,15 +11,6 @@ import { landingPageData } from "../../lib/data/landingPageData";
 export default function InfoSection() {
   return (
 
-    <>
-      <Helmet>
-        <title>Home</title>
-        <meta name="description" content="SLIITXtreme 2024 hosted by the IEEE Student Chapter of 
-         SLIIT in collaboration with the Software Engineering Student Community of SLIIT" />
-        <link rel="canonical" href="/" />
-        <meta property="og:image" content={landingPageData} />
-      </Helmet>
-
       <section>
         <div className="container mx-auto flex flex-col lg:flex-row gap-y-10 md:gap-x-10 pt md:pt-10 pb-20 px-8">
           {/* Image Slider */}
@@ -58,7 +49,6 @@ export default function InfoSection() {
           </div>
         </div>
       </section>
-    </>
 
   );
 }

@@ -5,12 +5,15 @@ import { Helmet } from "react-helmet-async";
 export default function Home() {
   return (
     <>
-    <Helmet>
-      <title>Home</title>
-      <meta name="description" content="SLIITXtreme 2024 hosted by the IEEE Student Chapter of 
-       SLIIT in collaboration with the Software Engineering Student Community of SLIIT" />
-      <link rel="canonical" href="/" />
-    </Helmet>
+      <Helmet>
+        <title>Home</title>
+        <meta name="description" content="SLIITXtreme 2024 hosted by the IEEE Student Chapter of 
+        SLIIT in collaboration with the Software Engineering Student Community of SLIIT" />
+        <link rel="canonical" href="/" />
+        {/* <meta property="og:description" content={description} />
+        <meta property="og:image" content={image} /> */}
+
+      </Helmet>
     
       <Hero />
       <InfoSection />
