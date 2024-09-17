@@ -13,7 +13,7 @@ const Awards = () => {
           </p>
         </div>
         {/* cards container */}
-        <div className="flex flex-col sm:flex-row gap-y-6 md:gap-y-8 p-6 flex-wrap justify-evenly">
+        <div className="flex flex-col sm:flex-row gap-y-6 md:gap-y-14 p-6 flex-wrap justify-evenly">
           {landingPageData.awardSection.awards.map((award, index) => (
             <div
               key={index}
