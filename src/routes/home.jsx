@@ -10,17 +10,23 @@ export default function Home() {
     <>
       {/* SEO */}
       <Helmet>
-        <title>Home</title>
+        <title>SLIITXtreme 3.0 - The Programming Hackathon</title>
         <meta
           name="description"
           content="SLIITXtreme 2024 hosted by the IEEE Student Chapter of 
         SLIIT in collaboration with the Software Engineering Student Community of SLIIT"
         />
         <link rel="canonical" href="/" />
-        <meta property="og:title" content="SLIITXtreme 3.0 - 2024" />
+        <meta
+          property="og:title"
+          content="SLIITXtreme 3.0 - The Programming Hackathon"
+        />
         <meta property="og:url" content="https://sliitxtreme.ieeesliit.com" />
         <meta property="og:description" content="SLIITXtreme 3.0 - 2024" />
-        <meta property="og:image" content="/images/OG_Image.png" />
+        <meta
+          property="og:image"
+          content="https://sliitxtreme.ieeesliit.com/images/OG_Image.png"
+        />
       </Helmet>
 
       <Hero />
