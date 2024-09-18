@@ -78,34 +78,40 @@ export const landingPageData = {
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     events: [
       {
-        date: "Aug 03, 2023 - 10:00 AM",
-        title: "Registrations Start",
+        date: "2024-09-18T10:00",
+        title: "Registrations Open",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod sed do eiusmod tempor.",
+          "The registration phase kicks off! Participants can now sign up for the hackathon.",
       },
       {
-        date: "Aug 03, 2023 - 10:00 AM",
-        title: "Registrations Start",
+        date: "2024-09-25T23:59",
+        title: "Registrations Close",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod sed do eiusmod tempor.",
+          "The registration window closes. Ensure your team is registered by this deadline.",
       },
       {
-        date: "Aug 03, 2023 - 10:00 AM",
-        title: "Registrations Start",
+        date: "2024-09-26T12:00",
+        title: "Kickoff Webinar",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod sed do eiusmod tempor.",
+          "A live webinar to introduce the event, explain the rules, and provide participants with resources to succeed.",
       },
       {
-        date: "Aug 03, 2023 - 10:00 AM",
-        title: "Registrations Start",
+        date: "2024-09-27T10:00",
+        title: "Hackathon Begins",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod sed do eiusmod tempor.",
+          "The hackathon officially starts! Teams begin working on their projects, and the clock starts ticking.",
       },
       {
-        date: "Aug 03, 2023 - 10:00 AM",
-        title: "Registrations Start",
+        date: "2024-10-02T23:59",
+        title: "Project Submission Deadline",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod sed do eiusmod tempor.",
+          "All teams must submit their completed projects by this deadline.",
+      },
+      {
+        date: "2024-10-04T18:00",
+        title: "Grand Finale",
+        description:
+          "Teams present their projects to the judges, followed by the announcement of the winners.",
       },
     ],
   },
