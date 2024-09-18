@@ -72,4 +72,41 @@ export const landingPageData = {
       },
     ],
   },
+  timelineSection: {
+    title: "Timeline",
+    subTitle:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+    events: [
+      {
+        date: "Aug 03, 2023 - 10:00 AM",
+        title: "Registrations Start",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod sed do eiusmod tempor.",
+      },
+      {
+        date: "Aug 03, 2023 - 10:00 AM",
+        title: "Registrations Start",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod sed do eiusmod tempor.",
+      },
+      {
+        date: "Aug 03, 2023 - 10:00 AM",
+        title: "Registrations Start",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod sed do eiusmod tempor.",
+      },
+      {
+        date: "Aug 03, 2023 - 10:00 AM",
+        title: "Registrations Start",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod sed do eiusmod tempor.",
+      },
+      {
+        date: "Aug 03, 2023 - 10:00 AM",
+        title: "Registrations Start",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod sed do eiusmod tempor.",
+      },
+    ],
+  },
 };

@@ -27,6 +27,12 @@
   font-style: normal;
 }
 
+.dm-sans-italic {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+}
+
 .swiper-pagination-bullet-active {
   background-color: #ef7226;
 }
@@ -36,4 +42,11 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.orange-gradient-border {
+  border-image: linear-gradient(to right bottom, #ef7226, #3e1a04) 1;
+  border-width: 4px;
+  border-style: solid;
+  padding: 5px;
 }
