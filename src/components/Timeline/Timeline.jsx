@@ -1,8 +1,16 @@
+import Header from "../common/Typography/Header";
+
 export default function Timeline() {
   return (
     <section className="bg-white-200 p-4">
       <div className="container mx-auto">
-        <h2 className="text-2xl font-bold mb-6 text-center">Timeline</h2>
+        <Header
+          title={"Timeline"}
+          subtitle={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates."
+          }
+          className={"mb-20"}
+        />
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
             <div className="timeline-middle">
@@ -112,12 +120,12 @@ export default function Timeline() {
               </time>
               <div className="text-lg font-black">Title 4</div>
               iPhone is a line of smartphones produced by Apple Inc. that use
-              Apple's own iOS mobile operating system. The first-generation
-              iPhone was announced by then-Apple CEO Steve Jobs on January 9,
-              2007. Since then, Apple has annually released new iPhone models
-              and iOS updates. As of November 1, 2018, more than 2.2 billion
-              iPhones had been sold. As of 2022, the iPhone accounts for 15.6%
-              of global smartphone market share
+              Appl own iOS mobile operating system. The first-generation iPhone
+              was announced by then-Apple CEO Steve Jobs on January 9, 2007.
+              Since then, Apple has annually released new iPhone models and iOS
+              updates. As of November 1, 2018, more than 2.2 billion iPhones had
+              been sold. As of 2022, the iPhone accounts for 15.6% of global
+              smartphone market share
             </div>
             <hr />
           </li>
