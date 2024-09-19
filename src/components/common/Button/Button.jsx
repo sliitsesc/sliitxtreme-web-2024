@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { twMerge } from "tailwind-merge";
 
-function Button({ text, link, color, className }) {
+function Button({ text, link, color = "orange", className }) {
   const getColorClasses = () => {
     switch (color) {
       case "blue":
@@ -31,10 +31,6 @@ Button.propTypes = {
   link: PropTypes.string.isRequired,
   color: PropTypes.oneOf(["blue", "orange", "white"]),
   className: PropTypes.string,
-};
-
-Button.defaultProps = {
-  color: "orange", // Default color is orange
 };
 
 export default Button;
