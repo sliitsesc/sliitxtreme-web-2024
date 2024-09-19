@@ -115,4 +115,21 @@ export const landingPageData = {
       },
     ],
   },
+  testimonialSection: {
+    title: "What Our Past Contestants Say",
+    testimonials: [
+      {
+        quote:
+          "SLIITXtreme was a great experience. We learned a lot and had fun at the same time. The event was well organized, and we can't wait to participate again next year!",
+        name: "Isuru Dinal",
+        team: "HackerX40",
+      },
+      {
+        quote:
+          "SLIITXtreme was a great experience. We learned a lot and had fun at the same time. The event was well organized, and we can't wait to participate again next year!",
+        name: "Sandali Chamodi",
+        team: "Code Buddies",
+      },
+    ],
+  },
 };
