@@ -9,7 +9,7 @@ export const landingPageData = {
   aboutSection: {
     title: "What is SLIITXtreme?",
     content:
-      "The IEEE Computer Society of Sri Lanka Institute of Information Technology (SLIIT), in collaboration with the Software Engineering Student Community (SESC) of SLIIT, organizes <b><i>SLIITXtreme</i></b>. This event aims to conduct a hackathon to introduce SLIIT undergraduates to the IEEEXtreme Global Programming Competition. This is the third consecutive time SLIITXtreme is appearing, and it is here with much more excitement than ever before.<br/><br/><b>Gather up your team and join for an exciting hackathon experience like never before.",
+      "The IEEE Computer Society of Sri Lanka Institute of Information Technology (SLIIT), in collaboration with the Software Engineering Student Community (SESC) of SLIIT, organizes <b><i>SLIITXtreme</i></b>. This event aims to conduct a hackathon to introduce SLIIT undergraduates the IEEEXtreme Global Programming Competition. This is the third consecutive time SLIITXtreme is appearing, and it is here with much more excitement than ever before.<br/><br/><b>Gather up your team and join for an exciting hackathon experience like never before.",
     images: [
       {
         src: "/images/xtreme-2.0/sliitxtreme-2-photos-1.png",
@@ -79,6 +79,9 @@ export const landingPageData = {
         alt: "SLIIT Xtreme 2.0 - Prizes",
         content: "SLIITXtreme 1.0",
         link: "#",
+        onClick: (e) => {
+          e.preventDefault(); // Prevents the page from scrolling to the top
+        },
       },
       {
         src: "/images/xtreme-2.0/sliitxtreme-2-photos-1.png",
