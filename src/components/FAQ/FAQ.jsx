@@ -1,3 +1,5 @@
+import parse from "html-react-parser";
+
 import heroGridsImage from "../../../public/images/Grid.svg";
 import { landingPageData } from "../../lib/data/landingPageData";
 import Header from "../common/Typography/Header";
@@ -24,7 +26,7 @@ export default function FAQ() {
                 {faq.question}
               </div>
               <div className="dm-sans-400 text-[20px] text-[#FFFFFF90] collapse-content">
-                <p>{faq.answer}</p>
+                <p>{parse(faq?.answer)}</p>
               </div>
             </div>
           ))}

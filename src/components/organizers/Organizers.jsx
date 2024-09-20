@@ -20,7 +20,7 @@ export default function Organizers() {
               <img
                 src={sponsor.logo}
                 alt={sponsor.name}
-                className="w-[200px] opacity-80"
+                className="w-[140px] opacity-80"
               />
             </div>
           ))}
