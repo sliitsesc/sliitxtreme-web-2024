@@ -14,7 +14,7 @@ export default function Timeline() {
   const currentEventIndex = getCurrentEventIndex(timelineData);
 
   return (
-    <section className="bg-white-200 relative">
+    <section id="timeline" className="bg-white-200 relative">
       <div className="bg-hero-grids bg-repeat absolute h-full w-full opacity-40"></div>
       <div className="bg-timeline-bg-black-gradient absolute h-full w-full"></div>
       <div className="container mx-auto lg:py-20 lg:px-0 px-10">
