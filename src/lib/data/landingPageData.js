@@ -97,38 +97,33 @@ export const landingPageData = {
       {
         date: "2024-09-21T23:59",
         title: "Registrations Open",
-        description:
-          "The registration phase kicks off! Participants can now sign up for the hackathon.",
+        description: "Secure your spot! Registration begins September 21st",
       },
       {
         date: "2024-09-28T23:59",
         title: "Awareness Session",
         description:
-          "A live webinar to introduce the event, explain the rules, and provide participants with resources to succeed.",
+          "Get the inside scoop - Join our info session on September 28th",
       },
       {
         date: "2024-10-01T23:59",
         title: "Technical Session",
-        description:
-          "",
+        description: "Skill up! Attend our tech session on October 1st",
       },
       {
         date: "2024-10-03T23:59",
         title: "Registration Close",
-        description:
-          "The registration window closes. Ensure your team is registered by this deadline.",
+        description: "Don't delay! Registration ends October 3rd",
       },
       {
         date: "2024-10-05T23:59",
         title: "Preliminary Round",
-        description:
-          "",
+        description: "Code your way to the top on October 5th",
       },
       {
         date: "2024-10-12T23:59",
         title: "Final Hackathon",
-        description:
-          "",
+        description: "The ultimate showdown! October 12th - Be there",
       },
     ],
   },

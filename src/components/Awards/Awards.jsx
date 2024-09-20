@@ -25,15 +25,18 @@ const Awards = () => {
                   className="w-auto h-[120px] md:h-[200px] object-contain"
                 />
                 {/* Medal Icon */}
-                <div className="text-center">
+                <div className="text-center flex flex-col justify-center items-center">
                   <h2 className="text-[24px] dm-sans-400 text-white">
                     {award.title}
                   </h2>
-                  <h3
+                  {/* <h3
                     className={`text-[36px] md:text-[48px] text-white ${award.title === "Winner" ? "orange-text-gradient font-extrabold dm-sans-800" : "silver-text-gradient font-extrabold dm-sans-800"}`}
                   >
                     {award.prize}
-                  </h3>
+                  </h3> */}
+                  <p className="bg-gradient-to-br px-4 py-2 rounded-full mt-4 animate-pulse text-white text-[20px] dm-sans-600">
+                    Revealing Soon
+                  </p>
                 </div>
               </div>
             </div>

@@ -23,9 +23,12 @@ export default function Sponsors() {
                   alt={sponsor.name}
                   className="w-[100px] opacity-80 mb-4"
                 />
-                <h2 className="dm-sans-600 text-[36px] text-white">
+                {/* <h2 className="dm-sans-600 text-[36px] text-white">
                   {sponsor?.name}
-                </h2>
+                </h2> */}
+                <p className="bg-gradient-to-br px-4 text-center py-2 rounded-full mt-0 mb-2 animate-pulse text-white text-[20px] dm-sans-600">
+                  Coming Soon
+                </p>
               </div>
             </div>
           ))}
