@@ -23,8 +23,8 @@ export default function Hero() {
             The Programming Hackathon
           </h1>
           <p className="text-[23.4px] leading-[30px] md:leading-normal md:text-[23.4px] font-normal dm-sans-400 max-w-[500px] sm:max-w-[600px] md:max-w-[768px] md:mb-2">
-            Welcome to the Hackathon of the Year— SLIITXtreme 2024 Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit.
+            Join the Coding Elite at SLIITXtreme 3.0. Connect with the brightest
+            minds, push your limits, and shape the future of technology.
           </p>
           <div className="inline-flex gap-x-4 mt-6">
             <Button
