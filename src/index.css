@@ -27,13 +27,50 @@
   font-style: normal;
 }
 
+.dm-sans-italic {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+}
+
 .swiper-pagination-bullet-active {
   background-color: #ef7226;
 }
 
 .orange-text-gradient {
-  background: -webkit-linear-gradient(top, #ef7226, #3e1a04);
+  background: -webkit-linear-gradient(top, #ef7226, #8a3e0f);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* silver text gradient */
+.silver-text-gradient {
+  background: -webkit-linear-gradient(top, #fefefe, #474747);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.orange-gradient-border {
+  border-image: linear-gradient(to right bottom, #ef7226, #3e1a04) 1;
+  border-width: 4px;
+  border-style: solid;
+  padding: 5px;
+}
+
+.dashed-border:before {
+  content: "";
+  position: absolute;
+  border: 5px dashed #000000;
+  top: 0px;
+  bottom: 0px;
+  left: -8px;
+  right: -8px;
+}
+
+.dashed-border.odd:before {
+  left: 0;
+  right: 0;
+  border-radius: 24px;
 }

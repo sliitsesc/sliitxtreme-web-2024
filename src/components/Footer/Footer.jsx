@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="footer footer-center bg-black text-base-content rounded p-10">
-      <nav className="grid grid-flow-col gap-4">
+      {/* <nav className="grid grid-flow-col gap-4">
         <a className="link link-hover">About</a>
         <a className="link link-hover">Contact</a>
         <a className="link link-hover">Guidelines</a>
@@ -43,7 +43,7 @@ export default function Footer() {
             </svg>
           </a>
         </div>
-      </nav>
+      </nav> */}
       <aside>
         <p>
           Copyright © {new Date().getFullYear()} - All right reserved.

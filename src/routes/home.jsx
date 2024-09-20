@@ -1,9 +1,16 @@
 import { Helmet } from "react-helmet-async";
 
 import Awards from "../components/Awards/Awards";
+import FAQ from "../components/FAQ/FAQ";
+import Gallery from "../components/Gallery/Gallery";
 import Hero from "../components/Hero/Hero";
 import InfoSection from "../components/Info/InfoSection";
+import RegisterSection from "../components/RegisterSection/RegisterSection";
 import Stats from "../components/Stats/Stats";
+import Testimonials from "../components/Testimonials/Testimonials";
+import Timeline from "../components/Timeline/Timeline";
+import Organizers from "../components/organizers/Organizers";
+import Sponsors from "../components/sponsors/Sponsors";
 
 export default function Home() {
   return (
@@ -33,6 +40,13 @@ export default function Home() {
       <InfoSection />
       <Stats />
       <Awards />
+      <Gallery />
+      <Timeline />
+      <Testimonials />
+      <Sponsors />
+      <RegisterSection />
+      <FAQ />
+      <Organizers />
     </>
   );
 }

@@ -1,8 +1,14 @@
+import heroGridsImage from "../../../public/images/Grid.svg";
 import { landingPageData } from "../../lib/data/landingPageData";
 
 function Stats() {
   return (
-    <section className="py-4 md:py-20">
+    <section className="py-4 md:py-20 relative">
+      <img
+        src={heroGridsImage}
+        className="absolute object-cover w-full h-full z-0 opacity-[30%]"
+      />
+      <div className="w-full h-full bg-gradient-to-b md:bg-gradient-to-b from-[-10%] from-[#000000] via-[#00000000] via-[40%] to-[#000000] to-[110%] absolute"></div>
       <div className="container mx-auto ">
         <h1 className="text-white text-center text-[40px] lg:text-[48px] font-bold drop-shadow-white-glow mb-10">
           {landingPageData?.statSection?.title}

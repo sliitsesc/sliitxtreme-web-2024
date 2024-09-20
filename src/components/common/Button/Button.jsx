@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { twMerge } from "tailwind-merge";
 
-function Button({ text, link, color, className }) {
+function Button({ text, link, color = "orange", className }) {
   const getColorClasses = () => {
     switch (color) {
       case "blue":
@@ -18,7 +18,7 @@ function Button({ text, link, color, className }) {
   return (
     <a href={link} className={twMerge(`inline-block`, className)}>
       <button
-        className={`font-medium text-[16px] py-[12px] px-[16px] rounded-[16px] transition duration-300 ease-in-out ${getColorClasses()}`}
+        className={`dm-sans-600 text-[16px] md:text-[18px] py-[12px] px-[16px] rounded-[16px] transition duration-300 ease-in-out ${getColorClasses()}`}
       >
         {text}
       </button>
@@ -31,10 +31,6 @@ Button.propTypes = {
   link: PropTypes.string.isRequired,
   color: PropTypes.oneOf(["blue", "orange", "white"]),
   className: PropTypes.string,
-};
-
-Button.defaultProps = {
-  color: "orange", // Default color is orange
 };
 
 export default Button;

@@ -1,154 +1,62 @@
+import { twMerge } from "tailwind-merge";
+
+import { landingPageData } from "../../lib/data/landingPageData";
+import { formatDateTime } from "../../lib/utils/dateTimeUtils";
+import {
+  getCurrentEventIndex,
+  isEventUpcoming,
+} from "../../lib/utils/timelineUtils";
+import Header from "../common/Typography/Header";
+
+const timelineData = landingPageData?.timelineSection;
+
 export default function Timeline() {
+  const currentEventIndex = getCurrentEventIndex(timelineData);
+
   return (
-    <section className="bg-white-200 p-4">
-      <div className="container mx-auto">
-        <h2 className="text-2xl font-bold mb-6 text-center">Timeline</h2>
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
-          <li>
-            <div className="timeline-middle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="h-5 w-5"
+    <section id="timeline" className="bg-white-200 relative">
+      <div className="bg-hero-grids bg-repeat absolute h-full w-full opacity-40"></div>
+      <div className="bg-timeline-bg-black-gradient absolute h-full w-full"></div>
+      <div className="container mx-auto lg:py-20 lg:px-0 px-10">
+        <Header title={timelineData?.title} />
+        <div className="relative h-full w-full">
+          <div className="bg-timeline-gradient absolute left-[16px] lg:left-1/2 w-[3px] -ml-[1px] h-full z-[1]"></div>
+          <div className="flex flex-col gap-y-4 py-28">
+            {timelineData?.events?.map((item, index) => (
+              <div
+                key={index}
+                className={twMerge(
+                  `flex flex-row-reverse ${index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"} justify-center items-center w-full z-10`,
+                )}
               >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
-            <div className="timeline-start mb-10 md:text-end">
-              <time className="font-mono italic">
-                13th of August - 10.00 AM
-              </time>
-              <div className="text-lg font-black">Title 1</div>
-              The Apple Macintosh—later rebranded as the Macintosh 128K—is the
-              original Apple Macintosh personal computer. It played a pivotal
-              role in establishing desktop publishing as a general office
-              function. The motherboard, a 9 in (23 cm) CRT monitor, and a
-              floppy drive were housed in a beige case with integrated carrying
-              handle; it came with a keyboard and single-button mouse.
-            </div>
-            <hr />
-          </li>
-          <li>
-            <hr />
-            <div className="timeline-middle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="h-5 w-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
-            <div className="timeline-end mb-10">
-              <time className="font-mono italic">15th of August - 7:30 PM</time>
-              <div className="text-lg font-black">Title 2</div>
-              iMac is a family of all-in-one Mac desktop computers designed and
-              built by Apple Inc. It has been the primary part of Apple's
-              consumer desktop offerings since its debut in August 1998, and has
-              evolved through seven distinct forms
-            </div>
-            <hr />
-          </li>
-          <li>
-            <hr />
-            <div className="timeline-middle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="h-5 w-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
-            <div className="timeline-start mb-10 md:text-end">
-              <time className="font-mono italic">
-                15th of August - 12.00 AM
-              </time>
-              <div className="text-lg font-black">Title 3</div>
-              The iPod is a discontinued series of portable media players and
-              multi-purpose mobile devices designed and marketed by Apple Inc.
-              The first version was released on October 23, 2001, about 8+1⁄2
-              months after the Macintosh version of iTunes was released. Apple
-              sold an estimated 450 million iPod products as of 2022. Apple
-              discontinued the iPod product line on May 10, 2022. At over 20
-              years, the iPod brand is the oldest to be discontinued by Apple
-            </div>
-            <hr />
-          </li>
-          <li>
-            <hr />
-            <div className="timeline-middle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="h-5 w-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
-            <div className="timeline-end mb-10">
-              <time className="font-mono italic">
-                13th of September - 11.59 PM
-              </time>
-              <div className="text-lg font-black">Title 4</div>
-              iPhone is a line of smartphones produced by Apple Inc. that use
-              Apple's own iOS mobile operating system. The first-generation
-              iPhone was announced by then-Apple CEO Steve Jobs on January 9,
-              2007. Since then, Apple has annually released new iPhone models
-              and iOS updates. As of November 1, 2018, more than 2.2 billion
-              iPhones had been sold. As of 2022, the iPhone accounts for 15.6%
-              of global smartphone market share
-            </div>
-            <hr />
-          </li>
-          <li>
-            <hr />
-            <div className="timeline-middle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="h-5 w-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
-            <div className="timeline-start mb-10 md:text-end">
-              <time className="font-mono italic">
-                18th of September - 10.00 AM
-              </time>
-              <div className="text-lg font-black">Title 5</div>
-              The Apple Watch is a line of smartwatches produced by Apple Inc.
-              It incorporates fitness tracking, health-oriented capabilities,
-              and wireless telecommunication, and integrates with iOS and other
-              Apple products and services
-            </div>
-          </li>
-        </ul>
+                {/* Left section */}
+                <div
+                  className={`w-full lg:w-5/12 bg-gradient-to-l p-[4px] ${index % 2 === 0 ? "lg:bg-gradient-to-r" : "lg:bg-gradient-to-l"} ${currentEventIndex === index ? "drop-shadow-orange-glow-bright" : ""} ${isEventUpcoming(item?.date) ? "dashed-border odd" : ""} from-orange-950 to-orange-500 rounded-[24px] transition-transform transform flex items-start justify-start lg:justify-center lg:items-center`}
+                >
+                  <div className="w-full h-full flex flex-col bg-black rounded-[20px] p-4 px-5 pt-3 lg:px-[52px] lg:py-[42px] lg:pt-[36px] text-white">
+                    <h2 className="dm-sans-600 text-[24px] lg:text-[36px] lg:leading-[47px]">
+                      {item?.title}
+                    </h2>
+                    <p className="dm-sans-italic font-medium text-[16px] lg:text-[22px] text-gray-500 mb-2 lg:mb-4">
+                      {formatDateTime(item?.date)}
+                    </p>
+                    <p className="text-[16px] lg:text-[22px]">
+                      {item?.description}
+                    </p>
+                  </div>
+                </div>
+                {/* connecting line left */}
+                <div className="bg-primary-orange h-[3px] w-[25px] lg:w-[50px]"></div>
+                {/* Center dot */}
+                <div className="bg-black flex border-[3px] border-primary-orange p-[2px] w-8 h-8 lg:w-[35px] lg:h-[35px] rounded-[200px] z-10"></div>
+                {/* connecting line right */}
+                <div className="hidden lg:block bg-transparent h-[2px] w-[50px]"></div>
+                {/* Right section */}
+                <div className="w-5/12 border opacity-0 hidden lg:block">Z</div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
