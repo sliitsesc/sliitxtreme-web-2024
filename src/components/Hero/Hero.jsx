@@ -9,11 +9,12 @@ export default function Hero() {
         src={heroGridsImage}
         className="absolute object-cover w-full h-full z-0 opacity-[25%]"
       />
-      <div className="w-full h-full bg-gradient-to-b md:bg-gradient-to-b from-[#00000000] via-[#00000000] via-[40%] to-[#000000] absolute"></div>
+      <div className="hidden md:block w-full h-full bg-gradient-to-b md:bg-gradient-to-b from-[#00000070] via-[#00000000] via-[40%] to-[#000000] absolute"></div>
+      <div className="block md:hidden w-full h-full bg-gradient-to-b md:bg-gradient-to-b from-[#000000] via-[#00000000] via-[40%] to-[#000000] absolute"></div>
       <Navbar className={"z-[1] text-white"} />
       <section className="h-[calc(100svh)] min-h-[400px] md:h-[calc(100vh-68px)] md:min-h-[500px] md:max-h-[900px] px-2 text-white text-center flex flex-col justify-center z-[1]">
         <div className="container flex flex-col items-center mx-auto z-[1] text-center -mt-[105px]">
-          <h1 className="text-[48px] leading-[52px] max-w-[340px] sm:max-w-none md:leading-[64px] md:text-[62px] font-bold dm-sans-600 mb-4 md:mb-6 drop-shadow-white-glow">
+          <h1 className="text-[38px] sm:text-[48px] leading-[52px] max-w-[340px] sm:max-w-none md:leading-[64px] md:text-[62px] font-bold dm-sans-600 mb-4 md:mb-6 drop-shadow-white-glow">
             SLIITXtreme 3.0—
             <br />
             The Programming Hackathon

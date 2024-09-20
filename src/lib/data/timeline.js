@@ -1,3 +1,4 @@
 export const timeline = {
-  regClosingDate: "2024-09-09T00:00:00.000Z",
+  refStartingDate: "2024-09-21T19:00",
+  regClosingDate: "2024-09-27T19:00",
 };

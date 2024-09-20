@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import Awards from "../components/Awards/Awards";
 import Hero from "../components/Hero/Hero";
 import InfoSection from "../components/Info/InfoSection";
+import RegisterSection from "../components/RegisterSection/RegisterSection";
 import Stats from "../components/Stats/Stats";
 import Gallery from "../components/Gallery/Gallery";
 import Testimonials from "../components/Testimonials/Testimonials";
@@ -40,6 +41,7 @@ export default function Home() {
       <Gallery/>
       <Timeline />
       <Testimonials />
+      <RegisterSection />
     </>
   );
 }

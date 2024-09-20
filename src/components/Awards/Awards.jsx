@@ -30,7 +30,7 @@ const Awards = () => {
                     {award.title}
                   </h2>
                   <h3
-                    className={`text-[36px] md:text-[48px] text-white ${award.title === "Winner" ? "orange-text-gradient font-extrabold dm-sans-800" : "dm-sans-600"}`}
+                    className={`text-[36px] md:text-[48px] text-white ${award.title === "Winner" ? "orange-text-gradient font-extrabold dm-sans-800" : "silver-text-gradient font-extrabold dm-sans-800"}`}
                   >
                     {award.prize}
                   </h3>

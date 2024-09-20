@@ -18,7 +18,7 @@ function Button({ text, link, color = "orange", className }) {
   return (
     <a href={link} className={twMerge(`inline-block`, className)}>
       <button
-        className={`font-medium text-[16px] py-[12px] px-[16px] rounded-[16px] transition duration-300 ease-in-out ${getColorClasses()}`}
+        className={`dm-sans-600 text-[16px] md:text-[18px] py-[12px] px-[16px] rounded-[16px] transition duration-300 ease-in-out ${getColorClasses()}`}
       >
         {text}
       </button>
