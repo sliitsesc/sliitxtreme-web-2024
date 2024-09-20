@@ -163,7 +163,7 @@ export const landingPageData = {
           "Current SLIIT undergraduates who have registered using the form in our website can participate, and IEEE membership is not required for participation.",
       },
       {
-        question: "What is IEEEXtreme",
+        question: "What is IEEEXtreme?",
         answer:
           "IEEEXtreme is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve a set of programming problems.",
       },

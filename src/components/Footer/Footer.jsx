@@ -47,7 +47,7 @@ export default function Footer() {
       <aside>
         <p>
           Copyright © {new Date().getFullYear()} - All right reserved.
-          Developed by SESC SLIIT.
+          Developed by Software Engineering Student Community(SESC) of SLIIT.
         </p>
       </aside>
     </footer>
