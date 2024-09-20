@@ -4,7 +4,10 @@ import Button from "../common/Button/Button";
 
 export default function Hero() {
   return (
-    <div className="bg-gradient-to-r from-[#11A3D6] via-black to-[#884116] relative overflow-x-hidden">
+    <div
+      className="bg-gradient-to-r from-[#11A3D6] via-black to-[#884116] relative overflow-x-hidden"
+      id="home"
+    >
       <img
         src={heroGridsImage}
         className="absolute object-cover w-full h-full z-0 opacity-[25%]"

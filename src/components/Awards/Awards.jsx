@@ -12,11 +12,11 @@ const Awards = () => {
         />
 
         {/* cards container */}
-        <div className="flex flex-col sm:flex-row gap-y-6 md:gap-y-14 p-6 flex-wrap justify-evenly">
+        <div className="flex flex-col sm:flex-row gap-x-6 gap-y-6 md:gap-y-14 p-6 sm:flex-wrap lg:flex-nowrap justify-evenly">
           {landingPageData.awardSection.awards.map((award, index) => (
             <div
               key={index}
-              className="p-[3px] bg-gradient-to-r from-orange-500 to-orange-950 rounded-3xl transition-transform transform flex justify-center items-center order-2 sm:order-none"
+              className="p-[3px] w-full bg-gradient-to-r from-orange-500 to-orange-950 rounded-3xl transition-transform transform flex justify-center items-center order-2 sm:order-none"
             >
               <div className="w-full h-full bg-black drop-shadow-orange-glow-bright rounded-3xl flex flex-col justify-center items-center py-[24px] md:py-[54px] px-[50px] gap-y-6">
                 <img

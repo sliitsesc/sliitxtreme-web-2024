@@ -9,7 +9,7 @@ export const landingPageData = {
   aboutSection: {
     title: "What is SLIITXtreme?",
     content:
-      "SLIIT Xtreme is a 24 hour hackathon hosted by the IEEE Student Chapter of SLIIT in collaboration with the Software Engineering Student Community of SLIIT. This is the third consecutive time SLIIT Xtreme is appearing, and it is here with much more excitement than ever before. SLIIT Xtreme 2023 was held with a massive success with more than 200 participants with a prize pool of 100,000 LKR!<br/><br/>Gather up your team and join for an exciting hackathon experience like never before!",
+      "The IEEE Computer Society of Sri Lanka Institute of Information Technology (SLIIT), in collaboration with the Software Engineering Student Community (SESC) of SLIIT, organizes <b><i>SLIITXtreme 3.0</i></b>. This event aims to conduct a hackathon to introduce SLIIT students to the IEEEXtreme global programming competition. This is the third consecutive time SLIIT Xtreme is appearing, and it is here with much more excitement than ever before.<br/><br/>Gather up your team and join for an exciting hackathon experience like never before!",
     images: [
       {
         src: "/images/xtreme-2.0/sliitxtreme-2-photos-1.png",
@@ -30,44 +30,40 @@ export const landingPageData = {
     ],
   },
   statSection: {
-    title: "SLIITXtreme 2023 in Numbers",
+    title: "SLIITXtreme 2.0 Stats",
     stats: [
       {
-        number: "100+",
+        number: "50+",
         label: "Teams",
       },
       {
-        number: "200+",
+        number: "130+",
         label: "Participants",
       },
       {
-        number: "100K+",
-        label: "Prizes (LKR)",
-      },
-      {
-        number: "100K+",
-        label: "Prizes (LKR)",
+        number: "50K+",
+        label: "In Prizes (LKR)",
       },
     ],
   },
   awardSection: {
     title: "Awards",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies.",
+      "Yet to be revealed, the awards will consist of extravagant cash prizes!",
     awards: [
       {
         title: "1st Runner up",
-        prize: "15,000 LKR",
+        prize: "###",
         image: "/images/awards/Award 2.png",
       },
       {
         title: "Winner",
-        prize: "25,000 LKR",
+        prize: "###",
         image: "/images/awards/Award 1.png",
       },
       {
         title: "2nd Runner up",
-        prize: "10,000 LKR",
+        prize: "###",
         image: "/images/awards/Award 3.png",
       },
     ],
@@ -94,7 +90,7 @@ export const landingPageData = {
   },
 
   timelineSection: {
-    title: "SLIITXtreme 3.0 Timeline",
+    title: "Hackathon Timeline",
     subTitle:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     events: [
@@ -137,19 +133,19 @@ export const landingPageData = {
     ],
   },
   testimonialSection: {
-    title: "What Our Past Contestants Say",
+    title: "Endorsements",
     testimonials: [
       {
         quote:
-          "SLIITXtreme was a great experience. We learned a lot and had fun at the same time. The event was well organized, and we can't wait to participate again next year!",
-        name: "Isuru Dinal",
-        team: "HackerX40",
+          "...I would like to highlight this event (SLIITXtreme), is a part of a series which is aimed to elevate students' coding expertise, and serving as an initial platform to enhance their skills in the preparation of the upcoming IEEEXtreme Competition.",
+        name: "Ms. Shashika Lokuliyana",
+        team: "Senior Lecturer, Faculty of Computing at SLIIT & Secretary of IEEE Computer Society Sri Lanka Section (2024-25)",
       },
       {
         quote:
-          "SLIITXtreme was a great experience. We learned a lot and had fun at the same time. The event was well organized, and we can't wait to participate again next year!",
-        name: "Sandali Chamodi",
-        team: "Code Buddies",
+          "...It is (SLIITXtreme) is organized aiming to prepare students for the upcoming IEEEXtreme Competition. By organizing SLIITXtreme, we want our participants to get a taste of what it’s like on a big stage…",
+        name: "Kishen Deemud",
+        team: "Former Chairperson of IEEE Computer Society of SLIIT (2022-23) & Former Ambassador of IEEEXtreme 16.0",
       },
     ],
   },
@@ -157,26 +153,26 @@ export const landingPageData = {
     title: "Frequently Asked Questions",
     questions: [
       {
-        question: "What is SLIIT Xtreme?",
+        question: "What is SLIITXtreme?",
         answer:
-          "SLIIT Xtreme is a 24-hour hackathon hosted by the IEEE Student Chapter of SLIIT in collaboration with the Software Engineering Student Community of SLIIT. This is the third consecutive time SLIIT Xtreme is appearing, and it is here with much more excitement than ever before. SLIIT Xtreme 2023 was held with a massive success with more than 200 participants with a prize pool of 100,000 LKR!",
+          "The IEEE Computer Society of the Sri Lankan Institute of Information Technology (SLIIT), in collaboration with the Software Engineering Student Community proudly presents SLIITXtreme 3.0. This competition aims to introduce SLIIT students to the global programming competition, IEEEXtreme 18.0. SLIITXtreme 3.0 is designed to provide contestants with an experience similar to the actual IEEEXtreme competition environment.<br/><br/>This year, SLIITXtreme 3.0 will take place on October 5th and October 12th, 2024. The event will consist of two stages: an online preliminary round will be a 6-hour hackathon followed by a 9-hour physical final hackathon.",
       },
       {
-        question: "Who can participate in SLIIT Xtreme?",
+        question: "What are the benefits of participating in SLIITXtreme 3.0?",
         answer:
-          "SLIIT Xtreme is open to all undergraduate students from any university in Sri Lanka. Participants can form teams of up to 4 members and register for the event. Each team must have at least one member who is a student at SLIIT.",
+          "<ul><li>- As a preparation for showcasing your coding talent on the global stage by solving exciting challenges.</li><li>- Solve unique and complex coding problems that enhance your creative and critical thinking skills.</li><li>- Expand your professional network and connect with like-minded tech enthusiasts.</li><li>- Elevate your resume, demonstrating your competitive edge.</li><li>- Win amazing prizes and bask in well-deserved recognition for your accomplishments.</li><li>- Break boundaries, level up as a coder, and showcase your true potential on this extraordinary platform built for achievers.</li></ul>",
       },
       {
-        question: "What are the prizes for SLIIT Xtreme?",
+        question: "Who can participate in SLIITXtreme 3.0?",
         answer:
-          "SLIIT Xtreme offers a range of prizes for the top-performing teams. The prizes include cash rewards, internships, and other exciting opportunities. The winners of the hackathon will be announced at the grand finale event.",
+          "Current SLIIT students who have registered using the form in our website can participate, and IEEE membership is not required for participation.",
       },
     ],
   },
   sponsors: {
     title: "Partners",
     content:
-      "SLIITXtreme 2024 would not be possible without the generous support of our sponsors. We are grateful for their contributions and commitment to fostering innovation and creativity among Sri Lankan students.",
+      "SLIITXtreme 2024 would not be possible without the generous support of our sponsors. We are grateful for their contributions and commitment to fostering innovation and creativity among Sri Lankan students",
     sponsors: [
       {
         name: "???",
@@ -198,12 +194,16 @@ export const landingPageData = {
       "SLIITXtreme 2024 is organized by the IEEE Student Chapter of SLIIT in collaboration with the Software Engineering Student Community of SLIIT. Our team is dedicated to creating an engaging and rewarding experience for all participants.",
     logos: [
       {
-        name: "IEEE Student Chapter of SLIIT",
+        name: "IEEE",
         logo: "/logos/ieee-logo.png",
       },
       {
-        name: "IEEE Student Chapter of SLIIT",
-        logo: "/logos/ieee-logo.png",
+        name: "IEEE",
+        logo: "/logos/ieeextreme-18.png",
+      },
+      {
+        name: "SESC",
+        logo: "/logos/se-logo.png",
       },
     ],
   },
