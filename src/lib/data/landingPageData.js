@@ -75,7 +75,7 @@ export const landingPageData = {
       "Explore highlights and key moments from past SLIITXtreme competitions.",
     images: [
       {
-        src: "/images/xtreme-2.0/sliitxtreme-2-photos-2.png",
+        src: "/images/xtreme-2.0/sliitxtreme-1.0.jpg",
         alt: "SLIIT Xtreme 2.0 - Prizes",
         content: "SLIITXtreme 1.0",
         link: "#",
