@@ -95,40 +95,40 @@ export const landingPageData = {
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     events: [
       {
-        date: "2024-09-18T10:00",
+        date: "2024-09-21T23:59",
         title: "Registrations Open",
         description:
           "The registration phase kicks off! Participants can now sign up for the hackathon.",
       },
       {
-        date: "2024-09-25T23:59",
-        title: "Registrations Close",
-        description:
-          "The registration window closes. Ensure your team is registered by this deadline.",
-      },
-      {
-        date: "2024-09-26T12:00",
-        title: "Kickoff Webinar",
+        date: "2024-09-28T23:59",
+        title: "Awareness Session",
         description:
           "A live webinar to introduce the event, explain the rules, and provide participants with resources to succeed.",
       },
       {
-        date: "2024-09-27T10:00",
-        title: "Hackathon Begins",
+        date: "2024-10-01T23:59",
+        title: "Technical Session",
         description:
-          "The hackathon officially starts! Teams begin working on their projects, and the clock starts ticking.",
+          "",
       },
       {
-        date: "2024-10-02T23:59",
-        title: "Project Submission Deadline",
+        date: "2024-10-03T23:59",
+        title: "Registration Close",
         description:
-          "All teams must submit their completed projects by this deadline.",
+          "The registration window closes. Ensure your team is registered by this deadline.",
       },
       {
-        date: "2024-10-04T18:00",
-        title: "Grand Finale",
+        date: "2024-10-05T23:59",
+        title: "Preliminary Round",
         description:
-          "Teams present their projects to the judges, followed by the announcement of the winners.",
+          "",
+      },
+      {
+        date: "2024-10-12T23:59",
+        title: "Final Hackathon",
+        description:
+          "",
       },
     ],
   },
