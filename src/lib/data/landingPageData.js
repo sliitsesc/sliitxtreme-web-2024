@@ -77,24 +77,23 @@ export const landingPageData = {
     title: "Gallery",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies.",
-      images: [
-        {
-          src: "/images/xtreme-2.0/sliitxtreme-2-photos-1.png",
-          alt: "SLIIT Xtreme 2.0 - Prizes",
-          content: "Highlights"
-        },
-        {
-          src: "/images/xtreme-2.0/sliitxtreme-2-photos-2.png",
-          alt: "SLIIT Xtreme 2.0 - Teams working",
-          content: "Highlights"
-        },
-        {
-          src: "/images/xtreme-2.0/sliitxtreme-2-photos-3.png",
-          alt: "SLIIT Xtreme 2.0 - Organizers",
-          content: "Highlights"
-        },
-       
-      ],
+    images: [
+      {
+        src: "/images/xtreme-2.0/sliitxtreme-2-photos-1.png",
+        alt: "SLIIT Xtreme 2.0 - Prizes",
+        content: "Highlights",
+      },
+      {
+        src: "/images/xtreme-2.0/sliitxtreme-2-photos-2.png",
+        alt: "SLIIT Xtreme 2.0 - Teams working",
+        content: "Highlights",
+      },
+      {
+        src: "/images/xtreme-2.0/sliitxtreme-2-photos-3.png",
+        alt: "SLIIT Xtreme 2.0 - Organizers",
+        content: "Highlights",
+      },
+    ],
   },
 
   timelineSection: {
@@ -156,6 +155,25 @@ export const landingPageData = {
         team: "Code Buddies",
       },
     ],
-
+  },
+  FAQSection: {
+    title: "Frequently Asked Questions",
+    questions: [
+      {
+        question: "What is SLIIT Xtreme?",
+        answer:
+          "SLIIT Xtreme is a 24-hour hackathon hosted by the IEEE Student Chapter of SLIIT in collaboration with the Software Engineering Student Community of SLIIT. This is the third consecutive time SLIIT Xtreme is appearing, and it is here with much more excitement than ever before. SLIIT Xtreme 2023 was held with a massive success with more than 200 participants with a prize pool of 100,000 LKR!",
+      },
+      {
+        question: "Who can participate in SLIIT Xtreme?",
+        answer:
+          "SLIIT Xtreme is open to all undergraduate students from any university in Sri Lanka. Participants can form teams of up to 4 members and register for the event. Each team must have at least one member who is a student at SLIIT.",
+      },
+      {
+        question: "What are the prizes for SLIIT Xtreme?",
+        answer:
+          "SLIIT Xtreme offers a range of prizes for the top-performing teams. The prizes include cash rewards, internships, and other exciting opportunities. The winners of the hackathon will be announced at the grand finale event.",
+      },
+    ],
   },
 };
