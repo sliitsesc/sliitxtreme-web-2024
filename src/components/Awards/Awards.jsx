@@ -3,7 +3,7 @@ import Header from "../common/Typography/Header";
 
 const Awards = () => {
   return (
-    <section className="py-12">
+    <section id="prizes" className="py-12">
       <div className="container bg-black mx-auto px-8 py-10 text-center rounded-md dm-sans-400">
         <Header
           title={landingPageData?.awardSection?.title}
