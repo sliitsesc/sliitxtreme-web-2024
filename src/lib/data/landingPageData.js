@@ -190,20 +190,21 @@ export const landingPageData = {
     logos: [
       {
         name: "IEEE",
-        logo: "/logos/ieee-logo.png",
-      },
-      {
-        name: "IEEE",
         logo: "/logos/ieeextreme-18.png",
-      },
-      {
-        name: "SESC",
-        logo: "/logos/se-logo.png",
       },
       {
         name: "IEEE_SB",
         logo: "/logos/IEEE_.png",
       },
+      {
+        name: "IEEE",
+        logo: "/logos/ieee-logo.png",
+      },
+      {
+        name: "SESC",
+        logo: "/logos/se-logo.png",
+      },
+      
     ],
   },
 };
