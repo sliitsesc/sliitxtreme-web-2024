@@ -95,6 +95,7 @@ export const landingPageData = {
         },
        
       ],
+  },
 
   timelineSection: {
     title: "Timeline",
