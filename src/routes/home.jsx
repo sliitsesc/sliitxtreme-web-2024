@@ -5,6 +5,9 @@ import Hero from "../components/Hero/Hero";
 import InfoSection from "../components/Info/InfoSection";
 import Stats from "../components/Stats/Stats";
 import Gallery from "../components/Gallery/Gallery";
+import Testimonials from "../components/Testimonials/Testimonials";
+import Timeline from "../components/Timeline/Timeline";
+
 
 export default function Home() {
   return (
@@ -35,6 +38,8 @@ export default function Home() {
       <Stats />
       <Awards />
       <Gallery/>
+      <Timeline />
+      <Testimonials />
     </>
   );
 }

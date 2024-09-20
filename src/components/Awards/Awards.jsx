@@ -1,23 +1,22 @@
 import { landingPageData } from "../../lib/data/landingPageData";
+import Header from "../common/Typography/Header";
 
 const Awards = () => {
   return (
     <section className="py-12">
       <div className="container bg-black mx-auto px-8 py-10 text-center rounded-md dm-sans-400">
-        <div className="text-center mb-8">
-          <h1 className="text-[48px] dm-sans-600 font-bold text-white mb-5 drop-shadow-white-glow">
-            {landingPageData.awardSection.title}
-          </h1>
-          <p className="text-[20px] text-white">
-            {landingPageData.awardSection.content}
-          </p>
-        </div>
+        <Header
+          title={landingPageData?.awardSection?.title}
+          subtitle={landingPageData?.awardSection?.content}
+          className={"mb-10"}
+        />
+
         {/* cards container */}
         <div className="flex flex-col sm:flex-row gap-y-6 md:gap-y-14 p-6 flex-wrap justify-evenly">
           {landingPageData.awardSection.awards.map((award, index) => (
             <div
               key={index}
-              className="p-[2px] bg-gradient-to-r from-orange-500 to-orange-950 rounded-3xl transition-transform transform flex justify-center items-center order-2 sm:order-none"
+              className="p-[3px] bg-gradient-to-r from-orange-500 to-orange-950 rounded-3xl transition-transform transform flex justify-center items-center order-2 sm:order-none"
             >
               <div className="w-full h-full bg-black drop-shadow-orange-glow-bright rounded-3xl flex flex-col justify-center items-center py-[24px] md:py-[54px] px-[50px] gap-y-6">
                 <img
