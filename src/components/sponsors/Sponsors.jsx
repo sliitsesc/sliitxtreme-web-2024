@@ -8,7 +8,7 @@ export default function Sponsors() {
         <Header
           title={"Sponsors"}
           className={"mb-12"}
-          subtitle={"Meet our esteemed sponsors who make this event possible."}
+          subtitle={"Meet our esteemed sponsors who make this event possible"}
         />
 
         <div className="flex flex-col md:flex-row gap-10">

@@ -95,33 +95,33 @@ export const landingPageData = {
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     events: [
       {
-        date: "2024-09-21T23:59",
+        date: "2024-09-21T00:00",
         title: "Registrations Open",
         description: "Secure your spot! Registration begins September 21st",
       },
       {
-        date: "2024-09-28T23:59",
+        date: "2024-09-28T00:00",
         title: "Awareness Session",
         description:
           "Get the inside scoop - Join our info session on September 28th",
       },
       {
-        date: "2024-10-01T23:59",
+        date: "2024-10-01T00:00",
         title: "Technical Session",
         description: "Skill up! Attend our tech session on October 1st",
       },
       {
-        date: "2024-10-03T23:59",
+        date: "2024-10-03T00:00",
         title: "Registration Close",
         description: "Don't delay! Registration ends October 3rd",
       },
       {
-        date: "2024-10-05T23:59",
+        date: "2024-10-05T00:00",
         title: "Preliminary Round",
         description: "Code your way to the top on October 5th",
       },
       {
-        date: "2024-10-12T23:59",
+        date: "2024-10-12T00:00",
         title: "Final Hackathon",
         description: "The ultimate showdown! October 12th - Be there",
       },
