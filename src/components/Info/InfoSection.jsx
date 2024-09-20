@@ -9,7 +9,7 @@ import { landingPageData } from "../../lib/data/landingPageData";
 
 export default function InfoSection() {
   return (
-    <section className="bg-transparent">
+    <section className="bg-transparent" id="about">
       <div className="container mx-auto flex flex-col lg:flex-row gap-y-10 md:gap-x-10 pt md:pt-10 pb-20 px-8">
         {/* Image Slider */}
         <div className="w-full lg:w-1/2 bg-slate-200 overflow-hidden rounded-3xl">

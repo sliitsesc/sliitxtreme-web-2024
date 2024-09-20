@@ -28,16 +28,16 @@ export default function Navbar({ className }) {
               <a href="#home">Home</a>
             </li>
             <li>
-              <a>About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a>Prizes</a>
+              <a href="#prizes">Prizes</a>
             </li>
             <li>
-              <a>Register</a>
+              <a href="#timeline">Timeline</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="#organizers">Contact</a>
             </li>
           </ul>
         </div>
@@ -71,19 +71,19 @@ export default function Navbar({ className }) {
               className="menu menu-sm bg-[#FFFFFF10] backdrop-blur-lg dropdown-content rounded-box mt-3 w-52 p-2 shadow right-0 text-white dm-sans-600 font-bold"
             >
               <li>
-                <a className="py-3 text-[16px]">Home</a>
+                <a href="#home" className="py-3 text-[16px]">Home</a>
               </li>
               <li>
-                <a className="py-3 text-[16px]">About</a>
+                <a href="#about" className="py-3 text-[16px]">About</a>
               </li>
               <li>
-                <a className="py-3 text-[16px]">Prizes</a>
+                <a href="#prizes" className="py-3 text-[16px]">Prizes</a>
               </li>
               <li>
-                <a className="py-3 text-[16px]">Register</a>
+                <a href="#timeline" className="py-3 text-[16px]">Timeline</a>
               </li>
               <li className="">
-                <a className="py-3 text-[16px]">Contact</a>
+                <a href="#organizers" className="py-3 text-[16px]">Contact</a>
               </li>
             </ul>
           </div>

@@ -3,7 +3,7 @@ import Header from "../common/Typography/Header";
 
 export default function Organizers() {
   return (
-    <section className="relative py-20">
+    <section id="organizers" className="relative py-20">
       <div className="container mx-auto px-8">
         <Header
           title={"Organized by"}
