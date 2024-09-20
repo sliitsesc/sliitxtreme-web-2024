@@ -20,11 +20,11 @@ export const landingPageData = {
         alt: "SLIIT Xtreme 2.0 - Teams working",
       },
       {
-        src: "/images/xtreme-2.0/sliitxtreme-2-photos-3.png",
+        src: "/images/xtreme-2.0/sliitextream-3.jpg",
         alt: "SLIIT Xtreme 2.0 - Organizers",
       },
       {
-        src: "/images/xtreme-2.0/sliitxtreme-2-photos-4.png",
+        src: "/images/xtreme-2.0/sliitextream-4.jpg",
         alt: "SLIIT Xtreme 2.0 - Teams",
       },
     ],
@@ -75,16 +75,16 @@ export const landingPageData = {
       "Explore highlights and key moments from past SLIITXtreme competitions",
     images: [
       {
-        src: "/images/xtreme-2.0/sliitxtreme-2-photos-1.png",
+        src: "/images/xtreme-2.0/sliitxtreme-2-photos-2.png",
         alt: "SLIIT Xtreme 2.0 - Prizes",
         content: "SLIITXtreme 1.0",
-        link: "https://facebook.com",
+        link: "#",
       },
       {
-        src: "/images/xtreme-2.0/sliitxtreme-2-photos-2.png",
+        src: "/images/xtreme-2.0/sliitxtreme-2-photos-1.png",
         alt: "SLIIT Xtreme 2.0 - Teams working",
         content: "SLIITXtreme 2.0",
-        link: "https://facebook.com",
+        link: "https://web.facebook.com/share/7EpTmwyBvtvAePHY/",
       },
     ],
   },
@@ -204,6 +204,10 @@ export const landingPageData = {
       {
         name: "SESC",
         logo: "/logos/se-logo.png",
+      },
+      {
+        name: "IEEE_SB",
+        logo: "/logos/IEEE_.png",
       },
     ],
   },
