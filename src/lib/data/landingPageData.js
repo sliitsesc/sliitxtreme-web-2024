@@ -72,6 +72,31 @@ export const landingPageData = {
       },
     ],
   },
+
+  gelleryItem: {
+    title: "Gallery",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies.",
+      images: [
+        {
+          src: "/images/xtreme-2.0/sliitxtreme-2-photos-1.png",
+          alt: "SLIIT Xtreme 2.0 - Prizes",
+          content: "Highlights"
+        },
+        {
+          src: "/images/xtreme-2.0/sliitxtreme-2-photos-2.png",
+          alt: "SLIIT Xtreme 2.0 - Teams working",
+          content: "Highlights"
+        },
+        {
+          src: "/images/xtreme-2.0/sliitxtreme-2-photos-3.png",
+          alt: "SLIIT Xtreme 2.0 - Organizers",
+          content: "Highlights"
+        },
+       
+      ],
+  },
+
   timelineSection: {
     title: "Timeline",
     subTitle:
@@ -131,5 +156,6 @@ export const landingPageData = {
         team: "Code Buddies",
       },
     ],
+
   },
 };
