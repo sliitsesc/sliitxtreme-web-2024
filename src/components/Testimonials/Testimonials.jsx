@@ -7,7 +7,7 @@ export default function Testimonials() {
   const testimonials = landingPageData?.testimonialSection;
   return (
     <section>
-      <div className="container mx-auto">
+      <div className="container mx-auto mb-20">
         <Header title={testimonials?.title} className={"mb-10"} />
         <div className="flex flex-col justify-center md:flex-row lg:gap-x-[42px] gap-x-[42px] gap-y-8 text-white px-10 md:px-8">
           {testimonials?.testimonials?.map((testimonial, index) => (

@@ -73,31 +73,28 @@ export const landingPageData = {
     ],
   },
 
-  gelleryItem: {
-    title: "Gallery",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies.",
+  gallerySection: {
+    title: "Past Competitions",
+    subtitle:
+      "Explore highlights and key moments from past SLIITXtreme competitions",
     images: [
       {
         src: "/images/xtreme-2.0/sliitxtreme-2-photos-1.png",
         alt: "SLIIT Xtreme 2.0 - Prizes",
-        content: "Highlights",
+        content: "SLIITXtreme 1.0",
+        link: "https://facebook.com",
       },
       {
         src: "/images/xtreme-2.0/sliitxtreme-2-photos-2.png",
         alt: "SLIIT Xtreme 2.0 - Teams working",
-        content: "Highlights",
-      },
-      {
-        src: "/images/xtreme-2.0/sliitxtreme-2-photos-3.png",
-        alt: "SLIIT Xtreme 2.0 - Organizers",
-        content: "Highlights",
+        content: "SLIITXtreme 2.0",
+        link: "https://facebook.com",
       },
     ],
   },
 
   timelineSection: {
-    title: "Timeline",
+    title: "SLIITXtreme 3.0 Timeline",
     subTitle:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     events: [
@@ -173,6 +170,40 @@ export const landingPageData = {
         question: "What are the prizes for SLIIT Xtreme?",
         answer:
           "SLIIT Xtreme offers a range of prizes for the top-performing teams. The prizes include cash rewards, internships, and other exciting opportunities. The winners of the hackathon will be announced at the grand finale event.",
+      },
+    ],
+  },
+  sponsors: {
+    title: "Partners",
+    content:
+      "SLIITXtreme 2024 would not be possible without the generous support of our sponsors. We are grateful for their contributions and commitment to fostering innovation and creativity among Sri Lankan students.",
+    sponsors: [
+      {
+        name: "???",
+        logo: "/images/sponsor-diamond.png",
+      },
+      {
+        name: "???",
+        logo: "/images/sponsor-diamond.png",
+      },
+      {
+        name: "???",
+        logo: "/images/sponsor-diamond.png",
+      },
+    ],
+  },
+  organizedBy: {
+    title: "Organized By",
+    content:
+      "SLIITXtreme 2024 is organized by the IEEE Student Chapter of SLIIT in collaboration with the Software Engineering Student Community of SLIIT. Our team is dedicated to creating an engaging and rewarding experience for all participants.",
+    logos: [
+      {
+        name: "IEEE Student Chapter of SLIIT",
+        logo: "/logos/ieee-logo.png",
+      },
+      {
+        name: "IEEE Student Chapter of SLIIT",
+        logo: "/logos/ieee-logo.png",
       },
     ],
   },
