@@ -31,7 +31,7 @@ export default function Navbar({ className }) {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#prizes">Prizes</a>
+              <a href="#prizes">Awards</a>
             </li>
             <li>
               <a href="#timeline">Timeline</a>
@@ -42,11 +42,18 @@ export default function Navbar({ className }) {
           </ul>
         </div>
         <div className="navbar-end">
-          <Button
+          {/* <Button
+          
             text="Register Now"
             link="#"
             color="orange"
             className={"z-[99] drop-shadow-orange-glow hidden lg:block"}
+          /> */}
+          <Button
+            text="Explore"
+            link="#about"
+            color="white"
+            className={"z-[99] drop-shadow-white-glow hidden lg:block"}
           />
           {/* mobile menu */}
           <div className="dropdown z-[99]">
@@ -71,19 +78,29 @@ export default function Navbar({ className }) {
               className="menu menu-sm bg-[#FFFFFF10] backdrop-blur-lg dropdown-content rounded-box mt-3 w-52 p-2 shadow right-0 text-white dm-sans-600 font-bold"
             >
               <li>
-                <a href="#home" className="py-3 text-[16px]">Home</a>
+                <a href="#home" className="py-3 text-[16px]">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#about" className="py-3 text-[16px]">About</a>
+                <a href="#about" className="py-3 text-[16px]">
+                  About
+                </a>
               </li>
               <li>
-                <a href="#prizes" className="py-3 text-[16px]">Prizes</a>
+                <a href="#prizes" className="py-3 text-[16px]">
+                  Awards
+                </a>
               </li>
               <li>
-                <a href="#timeline" className="py-3 text-[16px]">Timeline</a>
+                <a href="#timeline" className="py-3 text-[16px]">
+                  Timeline
+                </a>
               </li>
               <li className="">
-                <a href="#organizers" className="py-3 text-[16px]">Contact</a>
+                <a href="#organizers" className="py-3 text-[16px]">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>

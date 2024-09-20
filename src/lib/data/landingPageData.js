@@ -20,11 +20,11 @@ export const landingPageData = {
         alt: "SLIIT Xtreme 2.0 - Teams working",
       },
       {
-        src: "/images/xtreme-2.0/sliitextream-3.jpg",
+        src: "/images/xtreme-2.0/sliitextream-3.png",
         alt: "SLIIT Xtreme 2.0 - Organizers",
       },
       {
-        src: "/images/xtreme-2.0/sliitextream-4.jpg",
+        src: "/images/xtreme-2.0/sliitextream-4.png",
         alt: "SLIIT Xtreme 2.0 - Teams",
       },
     ],

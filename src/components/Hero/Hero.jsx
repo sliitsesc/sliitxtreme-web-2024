@@ -28,17 +28,23 @@ export default function Hero() {
           </p>
           <div className="inline-flex gap-x-4 mt-6">
             <Button
-              text="Explore"
-              link="#"
+              text="Explore More"
+              link="#about"
               color="white"
               className={"drop-shadow-white-glow"}
             />
-            <Button
+            {/* <Button
+              text="View Timeline"
+              link="#"
+              color="white"
+              className={"drop-shadow-white-glow"}
+            /> */}
+            {/* <Button
               text="Register Now"
               link="#"
               color="orange"
               className={"drop-shadow-orange-glow"}
-            />
+            /> */}
           </div>
         </div>
       </section>
