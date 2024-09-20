@@ -97,7 +97,7 @@ export const landingPageData = {
       {
         date: "2024-09-21T00:00",
         title: "Registrations Open",
-        description: "Secure your spot. Registration on begins September 21st",
+        description: "Secure your spot. Registration begins on September 21st",
       },
       {
         date: "2024-09-28T00:00",
@@ -113,7 +113,7 @@ export const landingPageData = {
       {
         date: "2024-10-03T00:00",
         title: "Registration Close",
-        description: "Don't delay Registration ends on October 3rd",
+        description: "Don't delay, Registration ends on October 3rd",
       },
       {
         date: "2024-10-05T00:00",
@@ -121,7 +121,7 @@ export const landingPageData = {
         description: "Code your way to the top on October 5th",
       },
       {
-        date: "2024-10-12T00:00",
+        date: "2024-10-13T00:00",
         title: "Final Hackathon",
         description: "The ultimate showdown is on October 13th - Be there...",
       },
