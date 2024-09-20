@@ -9,6 +9,8 @@ import RegisterSection from "../components/RegisterSection/RegisterSection";
 import Stats from "../components/Stats/Stats";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Timeline from "../components/Timeline/Timeline";
+import Organizers from "../components/organizers/Organizers";
+import Sponsors from "../components/sponsors/Sponsors";
 
 export default function Home() {
   return (
@@ -41,8 +43,10 @@ export default function Home() {
       <Gallery />
       <Timeline />
       <Testimonials />
+      <Sponsors />
       <RegisterSection />
       <FAQ />
+      <Organizers />
     </>
   );
 }

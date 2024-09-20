@@ -18,7 +18,7 @@ export default function Timeline() {
       <div className="bg-hero-grids bg-repeat absolute h-full w-full opacity-40"></div>
       <div className="bg-timeline-bg-black-gradient absolute h-full w-full"></div>
       <div className="container mx-auto lg:py-20 lg:px-0 px-10">
-        <Header title={"The Timeline"} />
+        <Header title={timelineData?.title} />
         <div className="relative h-full w-full">
           <div className="bg-timeline-gradient absolute left-[16px] lg:left-1/2 w-[3px] -ml-[1px] h-full z-[1]"></div>
           <div className="flex flex-col gap-y-4 py-28">
