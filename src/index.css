@@ -38,7 +38,15 @@
 }
 
 .orange-text-gradient {
-  background: -webkit-linear-gradient(top, #ef7226, #3e1a04);
+  background: -webkit-linear-gradient(top, #ef7226, #8a3e0f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* silver text gradient */
+.silver-text-gradient {
+  background: -webkit-linear-gradient(top, #fefefe, #474747);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
