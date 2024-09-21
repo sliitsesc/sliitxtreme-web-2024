@@ -2,7 +2,7 @@ import { timeline } from "../../lib/data/timeline";
 import { useCountdown } from "../../lib/hooks/useCountdown";
 
 export default function Countdown() {
-  const timeLeft = useCountdown(timeline.regStartingDate);
+  const timeLeft = useCountdown(timeline.regClosingDate);
 
   return (
     <div id="countdown" className="flex justify-center dm-sans-400">
