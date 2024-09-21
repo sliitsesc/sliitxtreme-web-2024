@@ -6,7 +6,7 @@ export default function Organizers() {
     <section id="organizers" className="relative py-20">
       <div className="container mx-auto px-8">
         <Header
-          title={"Organized by"}
+          title={"Powered by"}
           className={"mb-12"}
           //   subtitle={"Meet our esteemed sponsors who make this event possible."}
         />
