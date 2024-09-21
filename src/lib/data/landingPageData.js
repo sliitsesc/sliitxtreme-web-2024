@@ -98,7 +98,7 @@ export const landingPageData = {
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     events: [
       {
-        date: "2024-09-21T00:00",
+        date: "2024-09-21T18:30",
         title: "Registrations Open",
         description: "Secure your spot. Registration begins on September 21st",
       },
@@ -180,7 +180,6 @@ export const landingPageData = {
         answer:
           "Join a community of more than 460,000 technology and engineering professionals united by a common desire to continuously learn, interact, collaborate, and innovate<br>&emsp;-Access the resources and opportunities you need to keep on top of changes in technology.<br>&emsp;-Network with other professionals in your local area or within a specific technical interest.<br>&emsp;-Mentor the next generation of engineers and technologists<br><br>There's no better time to take advantage of what IEEE has to offer. Join now and gain immediate access to all the valuable benefits and features of IEEE membership.<br/><br/>Join as a student: <b><a class='text-white' href='https://www.ieee.org/membership-application/public/join.html?grade=Student'>Click here</a></b><br/>Join as a professional: <b><a class='text-white' href='https://www.ieee.org/membership-application/public/join.html?grade=Student'>Click here</a></b>",
       },
-      
     ],
   },
   sponsors: {
@@ -223,7 +222,9 @@ export const landingPageData = {
         name: "SESC",
         logo: "/logos/se-logo.png",
       },
-      
     ],
+  },
+  registration: {
+    registerLink: "https://forms.gle/zH2givPivKqAHMph9",
   },
 };

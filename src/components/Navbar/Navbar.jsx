@@ -42,19 +42,18 @@ export default function Navbar({ className }) {
           </ul>
         </div>
         <div className="navbar-end">
-          {/* <Button
-          
+          <Button
             text="Register Now"
-            link="#"
+            link="#register"
             color="orange"
             className={"z-[99] drop-shadow-orange-glow hidden lg:block"}
-          /> */}
-          <Button
+          />
+          {/* <Button
             text="Explore"
             link="#about"
             color="white"
             className={"z-[99] drop-shadow-white-glow hidden lg:block"}
-          />
+          /> */}
           {/* mobile menu */}
           <div className="dropdown z-[99]">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
