@@ -1,10 +1,15 @@
 import heroGridsImage from "../../../public/images/Grid.svg";
+import { landingPageData } from "../../lib/data/landingPageData";
 import Countdown from "../Countdown/Countdown";
+import Button from "../common/Button/Button";
 import Header from "../common/Typography/Header";
 
 export default function RegisterSection() {
   return (
-    <div className="bg-gradient-to-r from-[#11A3D6] via-black to-[#884116] relative overflow-x-hidden">
+    <div
+      className="bg-gradient-to-r from-[#11A3D6] via-black to-[#884116] relative overflow-x-hidden"
+      id="register"
+    >
       <img
         src={heroGridsImage}
         className="absolute object-cover w-full h-full z-0 opacity-[25%]"
@@ -15,25 +20,25 @@ export default function RegisterSection() {
           <Header
             title={"Registration"}
             subtitle={
-              "Gather up your team and stay tuned. Registrations will be starting in..."
+              "Gather up your team and register now!<br/>Registrations will be <b>closing</b> in..."
             }
             className={"mb-8"}
           />
           <Countdown />
-          {/* <div className="inline-flex gap-x-4 mt-[42px]">
-            <Button
+          <div className="inline-flex gap-x-4 mt-[36px]">
+            {/* <Button
               text="Explore"
               link="#"
               color="white"
               className={"drop-shadow-white-glow"}
-            />
+            /> */}
             <Button
               text="Register Now"
-              link="#"
+              link={landingPageData?.registration?.registerLink}
               color="orange"
               className={"drop-shadow-orange-glow"}
             />
-          </div> */}
+          </div>
         </div>
       </section>
     </div>
