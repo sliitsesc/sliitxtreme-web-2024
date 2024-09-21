@@ -18,12 +18,13 @@ export default function Hero() {
       <section className="h-[calc(100svh)] min-h-[400px] md:h-[calc(100vh-68px)] md:min-h-[500px] md:max-h-[900px] px-2 text-white text-center flex flex-col justify-center z-[1]">
         <div className="container flex flex-col items-center mx-auto z-[1] text-center -mt-[105px]">
           <h1 className="text-[38px] sm:text-[48px] leading-[52px] max-w-[340px] sm:max-w-none md:leading-[64px] md:text-[62px] font-bold dm-sans-600 mb-4 md:mb-6 drop-shadow-white-glow">
-            SLIITXtreme 3.0—
+            SLIITXtreme 3.0
             <br />
             The Programming Hackathon
           </h1>
           <p className="text-[23.4px] leading-[30px] md:leading-normal md:text-[23.4px] font-normal dm-sans-400 max-w-[500px] sm:max-w-[600px] md:max-w-[768px] md:mb-2">
-            Join the Coding Elite at SLIITXtreme 3.0. Connect with the brightest
+            Join the Coding Elite at SLIITXtreme 3.0</p>
+            <p className="text-[19px] leading-[30px] md:leading-normal md:text-[19px] font-normal dm-sans-400 max-w-[500px] sm:max-w-[600px] md:max-w-[768px] md:mb-2">Connect with the brightest
             minds, push your limits, and shape the future of technology.
           </p>
           <div className="inline-flex gap-x-4 mt-6">

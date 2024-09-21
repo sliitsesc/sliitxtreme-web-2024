@@ -30,6 +30,7 @@ export default function Gallery() {
               target="_blank"
               rel="noopener noreferrer"
               className="relative w-full"
+              onClick={image?.onClick}
             >
               <img
                 src={image.src}

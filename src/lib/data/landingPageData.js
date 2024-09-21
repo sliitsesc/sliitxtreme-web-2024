@@ -9,7 +9,7 @@ export const landingPageData = {
   aboutSection: {
     title: "What is SLIITXtreme?",
     content:
-      "The IEEE Computer Society of Sri Lanka Institute of Information Technology (SLIIT), in collaboration with the Software Engineering Student Community (SESC) of SLIIT, organizes <b><i>SLIITXtreme 3.0</i></b>. This event aims to conduct a hackathon to introduce SLIIT students to the IEEEXtreme global programming competition. This is the third consecutive time SLIIT Xtreme is appearing, and it is here with much more excitement than ever before.<br/><br/>Gather up your team and join for an exciting hackathon experience like never before!",
+      "The IEEE Computer Society of Sri Lanka Institute of Information Technology (SLIIT), in collaboration with the Software Engineering Student Community (SESC) of SLIIT, organizes <b><i>SLIITXtreme</i></b>. This event aims to conduct a hackathon to introduce SLIIT undergraduates the IEEEXtreme Global Programming Competition. This is the third consecutive time SLIITXtreme is appearing, and it is here with much more excitement than ever before.<br/><br/><b>Gather up your team and join for an exciting hackathon experience like never before.",
     images: [
       {
         src: "/images/xtreme-2.0/sliitxtreme-2-photos-1.png",
@@ -30,7 +30,7 @@ export const landingPageData = {
     ],
   },
   statSection: {
-    title: "SLIITXtreme 2.0 Stats",
+    title: "SLIITXtreme 2.0 Statistics",
     stats: [
       {
         number: "50+",
@@ -49,7 +49,7 @@ export const landingPageData = {
   awardSection: {
     title: "Awards",
     content:
-      "Yet to be revealed, the awards will consist of extravagant cash prizes!",
+      "Yet to be revealed, the awards will consist of extravagant cash prizes",
     awards: [
       {
         title: "1st Runner up",
@@ -72,13 +72,16 @@ export const landingPageData = {
   gallerySection: {
     title: "Past Competitions",
     subtitle:
-      "Explore highlights and key moments from past SLIITXtreme competitions",
+      "Explore highlights and key moments from past SLIITXtreme competitions.",
     images: [
       {
-        src: "/images/xtreme-2.0/sliitxtreme-2-photos-2.png",
+        src: "/images/xtreme-2.0/sliitxtreme-1.0.jpg",
         alt: "SLIIT Xtreme 2.0 - Prizes",
         content: "SLIITXtreme 1.0",
         link: "#",
+        onClick: (e) => {
+          e.preventDefault(); // Prevents the page from scrolling to the top
+        },
       },
       {
         src: "/images/xtreme-2.0/sliitxtreme-2-photos-1.png",
@@ -97,7 +100,7 @@ export const landingPageData = {
       {
         date: "2024-09-21T00:00",
         title: "Registrations Open",
-        description: "Secure your spot! Registration begins September 21st",
+        description: "Secure your spot. Registration begins on September 21st",
       },
       {
         date: "2024-09-28T00:00",
@@ -108,12 +111,12 @@ export const landingPageData = {
       {
         date: "2024-10-01T00:00",
         title: "Technical Session",
-        description: "Skill up! Attend our tech session on October 1st",
+        description: " To skill up attend our Tech Session on October 1st",
       },
       {
         date: "2024-10-03T00:00",
         title: "Registration Close",
-        description: "Don't delay! Registration ends October 3rd",
+        description: "Don't delay, Registration ends on October 3rd",
       },
       {
         date: "2024-10-05T00:00",
@@ -121,9 +124,9 @@ export const landingPageData = {
         description: "Code your way to the top on October 5th",
       },
       {
-        date: "2024-10-12T00:00",
+        date: "2024-10-13T00:00",
         title: "Final Hackathon",
-        description: "The ultimate showdown! October 12th - Be there",
+        description: "The ultimate showdown is on October 13th - Be there...",
       },
     ],
   },
@@ -138,7 +141,7 @@ export const landingPageData = {
       },
       {
         quote:
-          "...It is (SLIITXtreme) is organized aiming to prepare students for the upcoming IEEEXtreme Competition. By organizing SLIITXtreme, we want our participants to get a taste of what it’s like on a big stage…",
+          "...It is (SLIITXtreme) is organized with the aim to prepare students for the upcoming IEEEXtreme Competition. By organizing SLIITXtreme, we want our participants to get a taste of what it’s like on a big stage…",
         name: "Kishen Deemud",
         team: "Former Chairperson of IEEE Computer Society of SLIIT (2022-23) & Former Ambassador of IEEEXtreme 16.0",
       },
@@ -148,9 +151,9 @@ export const landingPageData = {
     title: "Frequently Asked Questions",
     questions: [
       {
-        question: "What is SLIITXtreme?",
+        question: "What is SLIITXtreme 3.0?",
         answer:
-          "The IEEE Computer Society of the Sri Lankan Institute of Information Technology (SLIIT), in collaboration with the Software Engineering Student Community proudly presents SLIITXtreme 3.0. This competition aims to introduce SLIIT students to the global programming competition, IEEEXtreme 18.0. SLIITXtreme 3.0 is designed to provide contestants with an experience similar to the actual IEEEXtreme competition environment.<br/><br/>This year, SLIITXtreme 3.0 will take place on October 5th and October 12th, 2024. The event will consist of two stages: an online preliminary round will be a 6-hour hackathon followed by a 9-hour physical final hackathon.",
+          "The IEEE Computer Society of the Sri Lankan Institute of Information Technology (SLIIT), in collaboration with the Software Engineering Student Community proudly presents SLIITXtreme 3.0. This competition aims to introduce SLIIT undergraduates to the Global Programming Competition, IEEEXtreme 18.0. SLIITXtreme 3.0 is designed to provide contestants with an experience similar to the actual IEEEXtreme competition environment.<br/><br/>This year, SLIITXtreme 3.0 will take place on October 5th and October 13th, 2024. The event will consist of two stages: an online preliminary round will be a 6-hour hackathon followed by a 9-hour physical final hackathon at SLIIT premises.",
       },
       {
         question: "What are the benefits of participating in SLIITXtreme 3.0?",
@@ -160,8 +163,24 @@ export const landingPageData = {
       {
         question: "Who can participate in SLIITXtreme 3.0?",
         answer:
-          "Current SLIIT students who have registered using the form in our website can participate, and IEEE membership is not required for participation.",
+          "Current SLIIT undergraduates who have registered using the form in our website can participate, and IEEE membership is not required for participation.",
       },
+      {
+        question: "What is IEEEXtreme?",
+        answer:
+          "IEEEXtreme is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve a set of programming problems.",
+      },
+      {
+        question: "What is IEEE?",
+        answer:
+          "Institute of Electrical and Electronics Engineers (IEEE) is the world’s largest professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members foster the inspiration in providing highly cited publications, conferences, technology standards, professional and educational activities to its global community.",
+      },
+      {
+        question: "How to join IEEE?",
+        answer:
+          "Join a community of more than 460,000 technology and engineering professionals united by a common desire to continuously learn, interact, collaborate, and innovate<br>&emsp;-Access the resources and opportunities you need to keep on top of changes in technology.<br>&emsp;-Network with other professionals in your local area or within a specific technical interest.<br>&emsp;-Mentor the next generation of engineers and technologists<br><br>There's no better time to take advantage of what IEEE has to offer. Join now and gain immediate access to all the valuable benefits and features of IEEE membership.<br/><br/>Join as a student: <b><a class='text-white' href='https://www.ieee.org/membership-application/public/join.html?grade=Student'>Click here</a></b><br/>Join as a professional: <b><a class='text-white' href='https://www.ieee.org/membership-application/public/join.html?grade=Student'>Click here</a></b>",
+      },
+      
     ],
   },
   sponsors: {
@@ -190,20 +209,21 @@ export const landingPageData = {
     logos: [
       {
         name: "IEEE",
-        logo: "/logos/ieee-logo.png",
-      },
-      {
-        name: "IEEE",
         logo: "/logos/ieeextreme-18.png",
-      },
-      {
-        name: "SESC",
-        logo: "/logos/se-logo.png",
       },
       {
         name: "IEEE_SB",
         logo: "/logos/IEEE_.png",
       },
+      {
+        name: "IEEE",
+        logo: "/logos/ieee-logo.png",
+      },
+      {
+        name: "SESC",
+        logo: "/logos/se-logo.png",
+      },
+      
     ],
   },
 };
