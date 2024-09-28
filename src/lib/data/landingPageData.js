@@ -188,16 +188,22 @@ export const landingPageData = {
       "SLIITXtreme 2024 would not be possible without the generous support of our sponsors. We are grateful for their contributions and commitment to fostering innovation and creativity among Sri Lankan students",
     sponsors: [
       {
-        name: "???",
-        logo: "/images/sponsor-diamond.png",
+        name: "Sysco Labs",
+        partnerTitle:"Knowledge partner",
+        logo: "/logos/syscolabs.png",
+        revealed: true,
       },
       {
         name: "???",
+        partnerTitle:"",
         logo: "/images/sponsor-diamond.png",
+        revealed: false,
       },
       {
         name: "???",
+        partnerTitle:"",
         logo: "/images/sponsor-diamond.png",
+        revealed: false,
       },
     ],
   },
