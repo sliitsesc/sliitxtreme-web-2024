@@ -21,14 +21,22 @@ export default function Sponsors() {
                 <img
                   src={sponsor.logo}
                   alt={sponsor.name}
-                  className="w-[100px] opacity-80 mb-4"
+                  className="w-[200px]  opacity-80 mb-4 rounded-lg"
                 />
                 {/* <h2 className="dm-sans-600 text-[36px] text-white">
                   {sponsor?.name}
                 </h2> */}
-                <p className="bg-gradient-to-br px-4 text-center py-2 rounded-full mt-0 mb-2 animate-pulse text-white text-[20px] dm-sans-600">
-                  Coming Soon
-                </p>
+                {sponsor?.revealed ? (
+                  // Render the partner title or additional badge when revealed is true
+                  <p className=" px-4 text-center py-2 rounded-full mt-0 mb-2 text-white text-[36px] dm-sans-600">
+                    {sponsor.partnerTitle}
+                  </p>
+                ) : (
+                  // Render "Coming Soon" when revealed is false
+                  <p className="bg-gradient-to-r from-orange-500 to-orange-950 px-4 text-center py-2 rounded-full mt-0 mb-2 animate-pulse text-white text-[20px] dm-sans-600">
+                    Coming Soon
+                  </p>
+                )}
               </div>
             </div>
           ))}
