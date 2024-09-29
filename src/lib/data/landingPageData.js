@@ -189,7 +189,7 @@ export const landingPageData = {
     sponsors: [
       {
         name: "Sysco Labs",
-        partnerTitle:"Knowledge partner",
+        partnerTitle:"Knowledge Partner",
         logo: "/logos/syscolabs.png",
         revealed: true,
       },
